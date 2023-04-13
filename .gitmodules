@@ -1,0 +1,3 @@
+[submodule "tree-sitter-blade"]
+	path = tree-sitter-blade
+	url = git@github.com:EmranMR/tree-sitter-blade.git

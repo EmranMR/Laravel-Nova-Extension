@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syntax name="blade">
+    <meta>
+        <name>Blade</name>
+        <type>markup</type>
+        <preferred-file-extension>blade.php</preferred-file-extension>
+        <parent>html</parent>
+    </meta>
+
+    <detectors>
+        <extension priority="1.0">blade.php</extension>
+    </detectors>
+
+    <indentation>
+            <increase>
+                <expression>^\s*((@)(section|hasSection|sectionMissing|if|else|foreach|forelse|for|while|isset|unless|empty|auth|guest|env|switch|error|each|verbatim|production|once|prepend|setup|story|task|guest)\b(\((\w|\$|\=|\>)*\))?\s*$)</expression>
+            </increase>
+            <decrease>
+                <expression>^\s*((@)(endsection|else|elseif|endif|endforeach|endforelse|endfor|endwhile|endunless|endempty|endisset|endverbatim|endproduction|endenv|endswitch|endonce|endpush|enderror|endprepend|endguest|endsetup|endstory|endtask|endauth)$)</expression>
+            </decrease>
+    </indentation>
+
+    <comments>
+        <multiline>
+            <starts-with>
+                <expression>{{--</expression>
+            </starts-with>
+            <ends-with>
+                <expression>--}}</expression>
+            </ends-with>
+        </multiline>
+    </comments>
+
+    <injection>
+        <expression>(html|HTML|Html|javascript|js)</expression>
+    </injection>
+
+    <tree-sitter language="blade">
+        <highlights path="highlights.scm" />
+        <folds path="folds.scm" />
+        <symbols path="symbols.scm" />
+    </tree-sitter>
+</syntax>
