@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- TODO: later on break up into different files various names -->
+<!-- easier for contribution this way -->
 <!-- blade.keyword blade.x etc -->
 <completions name="blade">
+    <!-- No need for <query> as these are universal -->
     <provider>
         <syntax>blade</syntax>
-        <selector>*:not(comment)</selector>
         <expression>@[a-zA-Z0-9-]*</expression>
+        <trigger>@</trigger>
         <set>blade.keywords</set>
         <set>blade.keywords.parameters</set>
     </provider>
 
     <!-- Keywords -->
-    <set name="blade.keywords">
+    <set name="blade.keywords" symbol="method">
         <completion string="@csrf" />
         <completion string="@livewireStyles" />
         <completion string="@livewireScripts" />

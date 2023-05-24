@@ -1,8 +1,9 @@
 {
-    "identifier": "emran-mr.blade",
-    "name": "blade",
-    "organization": "emran-mr",
-    "description": "tree-sitter based support for laravel blade files as well as some other goodies in the future",
+    "identifier": "emran-mr.laravel",
+    "name": "Laravel Suit",
+    "organization": "Emran Ramezan",
+    "description": "Laravel Suit, encompassing tree-sitter based blade syntax highlighting and completion support for laravel blade files as well as some other goodies in the future.",
     "version": "0.1",
-    "categories": ["languages", "completions"]
+    "categories": ["languages", "completions"],
+    "bugs": "https://github.com/EmranMR/Laravel-Nova-Extension/issues"
 }

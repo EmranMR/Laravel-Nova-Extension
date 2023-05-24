@@ -31,11 +31,14 @@
         </multiline>
     </comments>
 
+
+    <!-- This allows other frameworks and syntaxes to inject blade -->
     <injection>
-        <expression>(html|HTML|Html|javascript|js)</expression>
+        <expression>(blade|Blade|BLADE|laravel|Laravel)$</expression>
     </injection>
 
     <tree-sitter language="blade">
+        <injections/>
         <highlights path="highlights.scm" />
         <folds path="folds.scm" />
         <symbols path="symbols.scm" />
