@@ -1,3 +1,11 @@
+##Features
+- tree-sitter based and the tree-sitter-blade project was written with this extension in mind for extensibily and flexibily
+- context aware autocompletion
+    - attributes
+    - if else
+
+- versatile syntax highlighting
+- Superb syntax injection for even better syntax highlighting and context aware autocompletion.
 <!--
 👋 Hello! As Nova users browse the extensions library, a good README can help them understand what your extension does, how it works, and what setup or configuration it may require.
 

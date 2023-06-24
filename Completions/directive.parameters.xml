@@ -1,0 +1,21 @@
+<completions>
+    <set name="blade.directive.parameters" symbol="method" case-insensitive="true">
+    <behavior prefix="@">
+        <append>($[])</append>
+    </behavior>
+    <completion string="@php"/>
+    <completion string="@extends"/>
+    <completion string="@yield"/>
+    <completion string="@include"/>
+    <completion string="@includeIf"/>
+    <completion string="@includeWhen"/>
+    <completion string="@includeUnless"/>
+    <completion string="@includeFirst"/>
+    <completion string="@props"/>
+    <completion string="@method"/>
+    <completion string="@inject"/>
+    <completion string="@each"/>
+    <completion string="@continue"/>
+    <completion string="@break"/>
+</set>
+</completions>

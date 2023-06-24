@@ -1,0 +1,7 @@
+<completions>
+    <set name="blade.directive.keywords" symbol="property" case-insensitive="true">
+        <completion string="@break"/>
+        <completion string="@continue"/>
+        <completion string="@csrf"/>
+    </set>
+</completions>

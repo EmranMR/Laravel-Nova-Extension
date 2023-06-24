@@ -1,110 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- TODO: later on break up into different files various names -->
-<!-- easier for contribution this way -->
-<!-- blade.keyword blade.x etc -->
 <completions name="blade">
-    <!-- No need for <query> as these are universal -->
-    <provider>
+    <!-- !General/Universal completion set -->
+    <provider name="blade.general">
         <syntax>blade</syntax>
+        <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
+        <exclude-selector>comment</exclude-selector>
         <trigger>@</trigger>
-        <set>blade.keywords</set>
-        <set>blade.keywords.parameters</set>
+        <set>blade.directive.parameters</set>
+        <set>blade.directive.keywords</set>
+    </provider>
+    <!-- !conditional keywords -->
+    <provider name="blade.conditional">
+        <syntax>blade</syntax>
+        <syntax>html</syntax>
+        <expression>@[a-zA-Z0-9-]*</expression>
+        <exclude-selector>comment</exclude-selector>
+        <trigger>@</trigger>
+        <query>
+            (conditional)
+        </query>
+        <set>blade.conditional.keywords</set>
+    </provider>
+    <!-- ! attributes -->
+    <provider name="blade.attributes">
+        <syntax>blade</syntax>
+        <syntax>html</syntax>
+        <expression>@[a-zA-Z0-9-]*</expression>
+        <exclude-selector>comment</exclude-selector>
+        <trigger>@</trigger>
+        <query>
+            (attribute)
+        </query>
+        <set>blade.attributes</set>
     </provider>
 
-    <!-- Keywords -->
-    <set name="blade.keywords" symbol="method">
-        <completion string="@csrf" />
-        <completion string="@livewireStyles" />
-        <completion string="@livewireScripts" />
-        <completion string="@else" />
-        <completion string="@endif" />
-        <completion string="@endforeach" />
-        <completion string="@endforelse" />
-        <completion string="@endfor" />
-        <completion string="@endwhile" />
-        <completion string="@endsection" />
-        <completion string="@endisset" />
-        <completion string="@verbatim" />
-        <completion string="@endverbatim" />
-        <completion string="@endunless" />
-        <completion string="@endempty" />
-        <completion string="@auth" />
-        <completion string="@endauth" />
-        <completion string="@guest" />
-        <completion string="@endguest" />
-        <completion string="@production" />
-        <completion string="@endproduction" />
-        <completion string="@endenv" />
-        <completion string="@endswitch" />
-        <completion string="@default" />
-        <completion string="@empty" />
-        <completion string="@continue" />
-        <completion string="@break" />
-        <completion string="@once" />
-        <completion string="@endonce" />
-        <completion string="@endpush" />
-        <completion string="@enderror" />
-        <completion string="@endprepend" />
-        <completion string="@php" />
-        <completion string="@endphp" />
-        <completion string="@setup" />
-        <completion string="@endsetup" />
-        <completion string="@endstory" />
-        <completion string="@endtask" />
-        <completion string="@parent" />
-        <completion string="@endcomponent" />
-        <completion string="@endslot" />
-    </set>
-
-    <set name="blade.keywords.parameters" symbol="method">
-        <behavior prefix="@">
-            <append>($[])</append>
-        </behavior>
-        <completion string="@extends" />
-        <completion string="@section" />
-        <completion string="@hasSection" />
-        <completion string="@sectionMissing" />
-        <completion string="@if" />
-        <completion string="@elseif" />
-        <completion string="@foreach" />
-        <completion string="@method" />
-        <completion string="@forelse" />
-        <completion string="@for" />
-        <completion string="@while" />
-        <completion string="@yield" />
-        <completion string="@isset" />
-        <completion string="@include" />
-        <completion string="@includeIf" />
-        <completion string="@includeWhen" />
-        <completion string="@includeUnless" />
-        <completion string="@includeFirst" />
-        <completion string="@json" />
-        <completion string="@unless" />
-        <completion string="@empty" />
-        <completion string="@auth" />
-        <completion string="@guest" />
-        <completion string="@env" />
-        <completion string="@switch" />
-        <completion string="@case" />
-        <completion string="@continue" />
-        <completion string="@break" />
-        <completion string="@push" />
-        <completion string="@error" />
-        <completion string="@props" />
-        <completion string="@input" />
-        <completion string="@each" />
-        <completion string="@stack" />
-        <completion string="@prepend" />
-        <completion string="@inject" />
-        <completion string="@livewire" />
-        <completion string="@lang" />
-        <completion string="@servers" />
-        <completion string="@story" />
-        <completion string="@task" />
-        <completion string="@dd" />
-        <completion string="@component" />
-        <completion string="@slot" />
-    </set>
 </completions>

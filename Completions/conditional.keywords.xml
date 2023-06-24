@@ -1,0 +1,10 @@
+<completions>
+    <set name="blade.conditional.keywords">
+        <completion string="@else"/>
+        <completion string="@elseif">
+            <behavior prefix="@">
+                <append>($[])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

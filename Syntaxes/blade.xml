@@ -13,10 +13,10 @@
 
     <indentation>
             <increase>
-                <expression>^\s*((@)(section|hasSection|sectionMissing|if|else|foreach|forelse|for|while|isset|unless|empty|auth|guest|env|switch|error|each|verbatim|production|once|prepend|setup|story|task|guest)\b(\((\w|\$|\=|\>)*\))?\s*$)</expression>
+                <expression>^\s*((@)(php(?!\(\))|section|hasSection|sectionMissing|if|else|foreach|forelse|for|while|isset|unless|empty|auth|guest|env|switch|error|each|verbatim|production|once|prepend|setup|story|task|guest)\b(\((\w|\$|\=|\>)*\))?\s*$)</expression>
             </increase>
             <decrease>
-                <expression>^\s*((@)(endsection|else|elseif|endif|endforeach|endforelse|endfor|endwhile|endunless|endempty|endisset|endverbatim|endproduction|endenv|endswitch|endonce|endpush|enderror|endprepend|endguest|endsetup|endstory|endtask|endauth)$)</expression>
+                <expression>^\s*((@)(endphp|endsection|else|elseif|endif|endforeach|endforelse|endfor|endwhile|endunless|endempty|endisset|endverbatim|endproduction|endenv|endswitch|endonce|endpush|enderror|endprepend|endguest|endsetup|endstory|endtask|endauth)$)</expression>
             </decrease>
     </indentation>
 

@@ -1,0 +1,14 @@
+<completions>
+    <set name="blade.attributes" symbol="tag-framework">
+        <behavior prefix="@">
+            <append>($[])</append>
+        </behavior>
+    <completion string="@class"/>
+    <completion string="@style"/>
+    <completion string="@checked"/>
+    <completion string="@selected"/>
+    <completion string="@disabled"/>
+    <completion string="@readonly"/>
+    <completion string="@required"/>
+    </set>
+</completions>
