@@ -4,7 +4,7 @@
     "organization": "Emran Ramezan",
     "categories": ["languages", "completions"],
     "license": "MIT",
-    "description": "Laravel Suit, encompassing tree-sitter based blade syntax highlighting and completion support for laravel blade files.",
+    "description": "Laravel Suit, tree-sitter based blade syntax highlighting and completion support for laravel blade files.",
     "version": "0.0.5",
     "repository": "https://github.com/EmranMR/Laravel-Nova-Extension",
     "bugs": "https://github.com/EmranMR/Laravel-Nova-Extension/issues",
