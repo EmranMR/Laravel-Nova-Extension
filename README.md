@@ -1,54 +1,37 @@
-##Features
-- tree-sitter based and the tree-sitter-blade project was written with this extension in mind for extensibily and flexibily
-- context aware autocompletion
-    - attributes
-    - if else
+### 🚧 Experimental, Pre-Release 🚧
 
-- versatile syntax highlighting
-- Superb syntax injection for even better syntax highlighting and context aware autocompletion.
-<!--
-👋 Hello! As Nova users browse the extensions library, a good README can help them understand what your extension does, how it works, and what setup or configuration it may require.
+-   This extension is not quite there yet, because of the shortcomings
+    with `tree-sitter-php`. However feel free to use it for
+    experimenting and testing until the issues are fixed.
+-   The
+    [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade)
+    itself is also fairly new and I am still working on it. It is
+    however fairly stable.
 
-Not every extension will need every item described below. Use your best judgement when deciding which parts to keep to provide the best experience for your new users.
+### Features
 
-💡 Quick Tip! As you edit this README template, you can preview your changes by selecting **Extensions → Activate Project as Extension**, opening the Extension Library, and selecting "blade" in the sidebar.
+-   Hoping for this extension to be an **_all in one_** for Laravel
+    projects. A bit ambitious but hopefully we can get there one day
+-   [tree-sitter](https://github.com/EmranMR/tree-sitter-blade) based
+    syntax highlighting and autocompletion support
+-   Context aware autocompletion
+-   Support for indentation increase/decrease
+-   [ ] php injection support
+-   [ ] Support for folding (TBA)
+-   [ ] Completion for views?
+    -   see
+        [tree-sitter-blade issue #5](https://github.com/EmranMR/tree-sitter-blade/issues/5)
+    -   Also see
+        [tree-sitter-php](https://github.com/tree-sitter/tree-sitter-php/pull/180)
+-   [ ] Support for Livewire
+-   [ ] Support for AlpineJS and many more....
 
-Let's get started!
--->
+### Staying up-to-date?
 
-<!--
-🎈 Include a brief description of the features your syntax extension provides. For example:
--->
+I would suggest starring/watching
+[the extensions repository](https://github.com/EmranMR/Laravel-Nova-Extension)
+for staying up to date with the release notes.
 
-**blade** provides syntax highlighting and autocompletion for **An Important Language**.
-
-<!--
-🎈 It can also be helpful to include a screenshot or GIF showing your extension in action:
--->
-
-![](https://nova.app/images/en/dark/editor.png)
-
-## Language Support
-
-<!--
-🎈 Whether your extension covers the entirety of a language's syntax or a subset, it can be helpful to describe that for users:
--->
-
-blade currently supports the following features of Important Language:
-
--   Lorem
--   Ipsum
--   Dolor
-
-Support for:
-
--   Sit
--   Amet
-
-is planned for a future update.
-
-<!--
-👋 That's it! Happy developing!
-
-P.S. If you'd like, you can remove these comments before submitting your extension 😉
--->
+Also feel free to have a look at the
+[tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade) and
+contribute via issues or discussions. They go hand in hand.

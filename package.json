@@ -1,0 +1,30 @@
+{
+    "name": "laravel.novaextension",
+    "version": "0.2.0",
+    "description": "Laravel Extension for Nova editor by panic. Providing syntax highlightin, folding and injection  support using tree-sitter-blade plus autocompletiton, snippets and many more features in the future...",
+    "main": "index.js",
+    "workspaces": [
+        "tree-sitter-blade"
+    ],
+    "scripts": {
+        "test": "npm run test -w tree-sitter-blade",
+        "prebuild": "npm run generate -w tree-sitter-blade",
+        "build": "./TreeSitterParserBuild/compile_parser.sh ${PWD}/tree-sitter-blade /Applications/Nova.app/",
+        "postbuild": "mv ./build/lib/libtree-sitter-blade.dylib ./Syntaxes/ && rm -rf ./build ./tree-sitter-blade/libtree-sitter-blade.dylib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EmranMR/Laravel-Nova-Extension.git"
+    },
+    "keywords": [
+        "Laravel",
+        "blade",
+        "Nova"
+    ],
+    "author": "Emran Ramezan",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/EmranMR/Laravel-Nova-Extension/issues"
+    },
+    "homepage": "https://github.com/EmranMR/Laravel-Nova-Extension#readme"
+}
