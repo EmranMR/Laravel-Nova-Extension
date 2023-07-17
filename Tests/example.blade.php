@@ -8,13 +8,12 @@
     <title></title>
 </head>
 
-@if(true)
-    <p>hello world</p>
-@endif
-
-<phptag>{{--
+    @if(true)
+        <p>hello world</p>
+    @endif
+    @php
         php
---}}</phptag>
+    @endphp
 
 <body>
 </body>
