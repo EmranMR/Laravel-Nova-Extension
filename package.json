@@ -10,7 +10,10 @@
         "test": "npm run test -w tree-sitter-blade",
         "prebuild": "npm run generate -w tree-sitter-blade",
         "build": "./TreeSitterParserBuild/compile_parser.sh ${PWD}/tree-sitter-blade /Applications/Nova.app/",
-        "postbuild": "mv ./build/lib/libtree-sitter-blade.dylib ./Syntaxes/ && rm -rf ./build ./tree-sitter-blade/libtree-sitter-blade.dylib"
+        "postbuild": "npm run move && npm run clean && npm run sign",
+        "move": "mv ./build/lib/libtree-sitter-blade.dylib ./Laravel.novaextension/Syntaxes/",
+        "clean": "rm -rf ./build ./tree-sitter-blade/libtree-sitter-blade.dylib ./tree-sitter-blade/build",
+        "sign": "codesign -s - ./Laravel.novaextension/Syntaxes/libtree-sitter-blade.dylib"
     },
     "repository": {
         "type": "git",
