@@ -9,12 +9,14 @@
 </head>
 
     @if(true)
-        <p>hello world</p>
+        @if(true)
+            <p>hello world</p>
+        @endif
     @endif
     @php
         php
     @endphp
-
+    {{echo $test}}
 <body>
 </body>
 

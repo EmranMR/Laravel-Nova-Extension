@@ -1,14 +1,18 @@
 🚧 Work in progress, no suitable for use in production
 
--   Integration with `tree-sitter-blade`
--   Indentation increase and decrease
--   Very basic context aware autocompletion (not complete at all)
+## 0.1.0
+
+-   Support for **code folding** for blade directives
+-   bumped the `tree-sitter-blade` to 0.1.2
 
 ## Version 0.0.6
 
--   Extension rearrangement for sliming purposes.
+-   Extension rearrangements for slimming purposes.
 -   Streamlining the build process & including the code signing
 
 ## Version 0.0.5
 
-Initial Release
+-   Initial Release
+-   Integration with `tree-sitter-blade`
+-   Support for automatic indentation increase and decrease
+-   Very basic context aware autocompletion (not complete at all)
