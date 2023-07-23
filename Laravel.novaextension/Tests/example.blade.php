@@ -18,6 +18,7 @@
     @endphp
     {{echo $test}}
 <body>
+
 </body>
 
 </html>

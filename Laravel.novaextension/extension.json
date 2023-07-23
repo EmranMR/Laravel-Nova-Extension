@@ -1,11 +1,17 @@
 {
     "identifier": "emran-mr.laravel",
-    "name": "Laravel Suit",
+    "name": "Laravel Suite",
     "organization": "Emran Ramezan",
+    "entitlements": {
+        "process": true,
+        "filesystem": "readonly"
+    },
+    "main": "main.js",
+    "activationEvents": ["onLanguage:blade"],
     "categories": ["languages", "completions"],
     "license": "MIT",
     "description": "Laravel Suit, tree-sitter based blade syntax highlighting and completion support for laravel blade files.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "repository": "https://github.com/EmranMR/Laravel-Nova-Extension",
     "bugs": "https://github.com/EmranMR/Laravel-Nova-Extension/issues",
     "funding": "https://github.com/sponsors/EmranMR"

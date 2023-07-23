@@ -1,3 +1,6 @@
 [submodule "tree-sitter-blade"]
 	path = tree-sitter-blade
 	url = git@github.com:EmranMR/tree-sitter-blade.git
+[submodule "laravel-dev-tools"]
+	path = laravel-dev-tools
+	url = git@github.com:haringsrob/laravel-dev-tools.git
