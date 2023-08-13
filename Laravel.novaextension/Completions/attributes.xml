@@ -1,5 +1,5 @@
 <completions>
-    <set name="blade.attributes" symbol="tag-framework">
+    <set name="blade.attributes" symbol="property">
         <behavior prefix="@">
             <append>($[])</append>
         </behavior>

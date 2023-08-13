@@ -1,0 +1,11 @@
+<completions>
+    <set name="blade.keywords" symbol="constant" case-insensitive="true">
+        <completion string="@break"/>
+        <completion string="@continue"/>
+        <completion string="@csrf"/>
+        <completion string="@viteReactRefresh"/>
+        <completion string="@livewireStyles"/>
+        <completion string="@livewireScripts"/>
+        <completion string="@livewireScriptConfig"/>
+    </set>
+</completions>

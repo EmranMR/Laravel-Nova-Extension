@@ -1,0 +1,9 @@
+<completions>
+    <set name="blade.nested">
+        <completion string="@php" symbol="function">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@endphp</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

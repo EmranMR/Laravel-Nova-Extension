@@ -6,17 +6,20 @@
         <syntax>blade</syntax>
         <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
-        <exclude-selector>comment</exclude-selector>
         <trigger>@</trigger>
+        <exclude-selector>comment, attribute</exclude-selector>
+        <query>
+            (element (text))
+        </query>
         <set>blade.directive.parameters</set>
-        <set>blade.directive.keywords</set>
+        <set>blade.keywords</set>
     </provider>
     <!-- !conditional keywords -->
     <provider name="blade.conditional">
         <syntax>blade</syntax>
         <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
-        <exclude-selector>comment</exclude-selector>
+        <exclude-selector>comment, attribute</exclude-selector>
         <trigger>@</trigger>
         <query>
             (conditional)
@@ -28,12 +31,21 @@
         <syntax>blade</syntax>
         <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
-        <exclude-selector>comment</exclude-selector>
         <trigger>@</trigger>
         <query>
             (attribute)
         </query>
         <set>blade.attributes</set>
     </provider>
+    <!-- ! multiline-->
+    <provider name="blade.multiline">
+        <syntax>blade</syntax>
+        <syntax>html</syntax>
+        <expression>@[a-zA-Z0-9-]*</expression>
+        <trigger>@</trigger>
+        <set>blade.multiline</set>
+    </provider>
+
+
 
 </completions>
