@@ -7,14 +7,22 @@
         <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <trigger>@</trigger>
-        <exclude-selector>comment, attribute</exclude-selector>
-        <query>
-            (element (text))
-        </query>
-        <set>blade.directive.parameters</set>
-        <set>blade.php.statement</set>
-        <set>blade.loop.keywords</set>
+        <exclude-selector>comment</exclude-selector>
         <set>blade.keywords</set>
+        <set>blade.php.statement</set>
+        <set>blade.inline.directive</set>
+        <set>blade.loop.keywords</set>
+    </provider>
+    <!-- ! attributes -->
+    <provider name="blade.attributes">
+        <syntax>blade</syntax>
+        <syntax>html</syntax>
+        <expression>@[a-zA-Z0-9-]*</expression>
+        <trigger>@</trigger>
+        <query>
+            (attribute)
+        </query>
+        <set>blade.attributes</set>
     </provider>
     <!-- !conditional keywords -->
     <provider name="blade.conditional">
@@ -27,17 +35,6 @@
             (conditional)
         </query>
         <set>blade.conditional.keywords</set>
-    </provider>
-    <!-- ! attributes -->
-    <provider name="blade.attributes">
-        <syntax>blade</syntax>
-        <syntax>html</syntax>
-        <expression>@[a-zA-Z0-9-]*</expression>
-        <trigger>@</trigger>
-        <query>
-            (attribute)
-        </query>
-        <set>blade.attributes</set>
     </provider>
     <!-- ! multiline-->
     <provider name="blade.multiline">

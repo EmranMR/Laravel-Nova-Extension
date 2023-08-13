@@ -1,5 +1,5 @@
 <completions>
-    <set name="blade.directive.parameters" symbol="method" case-insensitive="true">
+    <set name="blade.inline.directive" symbol="function" case-insensitive="true">
         <behavior prefix="@">
             <append>($[])</append>
         </behavior>
@@ -14,7 +14,7 @@
         <completion string="@method"/>
         <completion string="@inject"/>
         <completion string="@each"/>
-        <completion string="@continue"/>
-        <completion string="@break"/>
+        <completion string="@vite"/>
+        <completion string="@livewire"/>
     </set>
 </completions>
