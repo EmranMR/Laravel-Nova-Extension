@@ -1,4 +1,5 @@
 <completions>
+    <!-- !keyword -->
     <set name="blade.keywords" symbol="constant" case-insensitive="true">
         <completion string="@csrf"/>
         <completion string="@viteReactRefresh"/>
@@ -6,4 +7,29 @@
         <completion string="@livewireScripts"/>
         <completion string="@livewireScriptConfig"/>
     </set>
+    <!-- !loop_operator -->
+    <set name="blade.loop.keywords"  case-insensitive="true">
+        <completion symbol="constant" string="@break"/>
+        <completion symbol="constant" string="@continue"/>
+        <completion symbol="function" string="@continue">
+            <behavior>
+                <append>($[])</append>
+            </behavior>
+        </completion>
+        <completion symbol="function" string="@break">
+            <behavior>
+                <append>($[])</append>
+            </behavior>
+        </completion>
+    </set>
+    <!-- !conditional_keyword -->
+    <set name="blade.conditional.keywords">
+        <completion string="@else"/>
+        <completion string="@elseif">
+            <behavior prefix="@">
+                <append>($[])</append>
+            </behavior>
+        </completion>
+    </set>
+
 </completions>

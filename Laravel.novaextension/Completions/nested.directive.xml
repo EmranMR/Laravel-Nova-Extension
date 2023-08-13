@@ -1,0 +1,59 @@
+<completions>
+    <set name="blade.nested.directive" case-insensitive="true">
+        <!-- !section -->
+        <completion string="@section" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endsection</append>
+            </behavior>
+        </completion>
+        <!-- !fragment -->
+        <completion string="@fragment" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endfragment</append>
+            </behavior>
+        </completion>
+        <!-- !once -->
+        <completion string="@once" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@endonce</append>
+            </behavior>
+        </completion>
+        <!-- !verbatim -->
+        <completion string="@verbatim" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endverbatim</append>
+            </behavior>
+        </completion>
+        <!-- !stack -->
+        <!-- !push -->
+        <completion string="@push" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endpush</append>
+            </behavior>
+        </completion>
+        <!-- !pushOnce -->
+        <completion string="@pushOnce" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endPushOnce</append>
+            </behavior>
+        </completion>
+        <!-- !pushIf -->
+        <completion string="@pushIf" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endPushIf</append>
+            </behavior>
+        </completion>
+        <!-- !prepend -->
+        <completion string="@prepend" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endprepend</append>
+            </behavior>
+        </completion>
+            <!-- !prependOnce -->
+        <completion string="@prependOnce" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endPrependOnce</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>
