@@ -1,0 +1,6 @@
+<completions>
+    <set name="blade.loop.keywords" symbol="constant" case-insensitive="true">
+        <completion string="@break"/>
+        <completion string="@continue"/>
+    </set>
+</completions>

@@ -12,6 +12,8 @@
             (element (text))
         </query>
         <set>blade.directive.parameters</set>
+        <set>blade.php.statement</set>
+        <set>blade.loop.keywords</set>
         <set>blade.keywords</set>
     </provider>
     <!-- !conditional keywords -->

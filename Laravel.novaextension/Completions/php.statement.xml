@@ -1,0 +1,14 @@
+<completions>
+    <set name="blade.php.statement" case-insensitive="true">
+        <completion string="@php" symbol="method">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@endphp</append>
+            </behavior>
+        </completion>
+        <completion string="@php" symbol="function">
+            <behavior prefix="@">
+                <append>($[])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

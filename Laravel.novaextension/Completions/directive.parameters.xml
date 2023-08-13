@@ -3,7 +3,6 @@
         <behavior prefix="@">
             <append>($[])</append>
         </behavior>
-        <completion string="@php"/>
         <completion string="@extends"/>
         <completion string="@yield"/>
         <completion string="@include"/>
