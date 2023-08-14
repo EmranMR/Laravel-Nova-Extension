@@ -7,7 +7,7 @@
         <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <trigger>@</trigger>
-        <exclude-selector>comment</exclude-selector>
+        <exclude-selector>comment, attribute</exclude-selector>
         <set>blade.php.statement</set>
         <set>blade.inline.directive</set>
         <set>blade.keywords</set>

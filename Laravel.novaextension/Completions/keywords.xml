@@ -24,8 +24,8 @@
     </set>
     <!-- !conditional_keyword -->
     <set name="blade.conditional.keywords">
-        <completion string="@else"/>
-        <completion string="@elseif">
+        <completion symbol="constant" string="@else"/>
+        <completion symbol="function" string="@elseif">
             <behavior prefix="@">
                 <append>($[])</append>
             </behavior>

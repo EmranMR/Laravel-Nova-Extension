@@ -55,5 +55,85 @@
                 <append>($[parameter])&#10;&#9;$[body]&#10;@endPrependOnce</append>
             </behavior>
         </completion>
+
+        <!-- !Conditional -->
+        <!-- !if -->
+        <completion string="@if" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endif</append>
+            </behavior>
+        </completion>
+        <!-- !unless -->
+        <completion string="@unless" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endunless</append>
+            </behavior>
+        </completion>
+        <!-- !isset -->
+        <completion string="@isset" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endisset</append>
+            </behavior>
+        </completion>
+        <!-- !empty -->
+        <completion string="@empty" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endempty</append>
+            </behavior>
+        </completion>
+        <!-- !auth with parameter-->
+        <completion string="@auth" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endauth</append>
+            </behavior>
+        </completion>
+        <!-- !auth -->
+        <completion string="@auth" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[body]&#10;@endauth</append>
+            </behavior>
+        </completion>
+        <!-- !guest with parameter -->
+        <completion string="@guest" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endguest</append>
+            </behavior>
+        </completion>
+        <!-- !guest -->
+        <completion string="@guest" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[body]&#10;@endguest</append>
+            </behavior>
+        </completion>
+        <!-- !production -->
+        <completion string="@production" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[body]&#10;@endproduction</append>
+            </behavior>
+        </completion>
+        <!-- !env -->
+        <completion string="@env" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endenv</append>
+            </behavior>
+        </completion>
+        <!-- !hasSection -->
+        <completion string="@hasSection" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endif</append>
+            </behavior>
+        </completion>
+        <!-- !sectionMissing -->
+        <completion string="@sectionMissing" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endif</append>
+            </behavior>
+        </completion>
+        <!-- !error -->
+        <completion string="@error" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@enderror</append>
+            </behavior>
+        </completion>
     </set>
 </completions>
