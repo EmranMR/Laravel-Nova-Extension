@@ -24,6 +24,7 @@
                 <append>($[parameter])&#10;&#9;$[body]&#10;@endverbatim</append>
             </behavior>
         </completion>
+
         <!-- !stack -->
         <!-- !push -->
         <completion string="@push" symbol="block">
@@ -133,6 +134,12 @@
         <completion string="@error" symbol="block">
             <behavior>
                 <append>($[parameter])&#10;&#9;$[body]&#10;@enderror</append>
+            </behavior>
+        </completion>
+        <!-- !switch -->
+        <completion string="@switch" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;@case($[case])&#10;&#9;&#9;$[body]&#10;&#9;&#9;@break&#10;@endswitch</append>
             </behavior>
         </completion>
     </set>

@@ -32,4 +32,15 @@
         </completion>
     </set>
 
+    <!-- !switch_keyword -->
+    <set name="blade.switch.keywords">
+        <completion symbol="constant" string="@break"/>
+        <completion symbol="constant" string="@default"/>
+        <completion symbol="function" string="@case">
+            <behavior prefix="@">
+                <append>($[])</append>
+            </behavior>
+        </completion>
+    </set>
+
 </completions>

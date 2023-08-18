@@ -25,7 +25,7 @@
         <set>blade.attributes</set>
     </provider>
     <!-- !conditional keywords -->
-    <provider name="blade.conditional">
+    <provider name="blade.conditional.keywords">
         <syntax>blade</syntax>
         <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
@@ -35,5 +35,17 @@
             (conditional)
         </query>
         <set>blade.conditional.keywords</set>
+    </provider>
+    <!-- !switch keywords -->
+    <provider name="blade.switch.keywords">
+        <syntax>blade</syntax>
+        <syntax>html</syntax>
+        <expression>@[a-zA-Z0-9-]*</expression>
+        <exclude-selector>comment, attribute</exclude-selector>
+        <trigger>@</trigger>
+        <query>
+            (switch)
+        </query>
+        <set>blade.switch.keywords</set>
     </provider>
 </completions>
