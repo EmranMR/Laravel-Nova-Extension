@@ -1,4 +1,4 @@
-# <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Laravel.novaextension/extension.png?raw=true" width="100px" style="position: relative; top: 20px" alt="alt text" title="image Title" /> Laravel Suit
+# <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Laravel.novaextension/extension.png?raw=true" width="100px" style="position: relative; top: 20px" alt="alt text" title="image Title" /> Laravel Suite
 ----
 ### 🚧 Experimental, Pre-Release 🚧
 Hello 👋
@@ -49,8 +49,8 @@ contribute via issues or discussions. They go hand in hand.
 ### Issues:
 ##### tree-sitter-blade
 If you see any problem with *parsing*, it is very related to `tree-sitter-blade`. So please [raise an issue on that repo](https://github.com/EmranMR/tree-sitter-blade/issues)
-##### Laravel Suit
-Anything else please raise an issue on [Laravel Suit repo](https://github.com/EmranMR/Laravel-Nova-Extension/issues)
+##### Laravel Suite
+Anything else please raise an issue on [Laravel Suite repo](https://github.com/EmranMR/Laravel-Nova-Extension/issues)
 ##### What if I dont know?
 Well raise it in either repos and I will link it up to the correct repo, I won't bite, I promise! 🔪 👀 After all it is hard to draw the line sometimes for example in terms of highlighting or folding.
 
