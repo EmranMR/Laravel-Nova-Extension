@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.network">
+        <completion string="checkdnsrr">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="closelog">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="dns_check_record">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="dns_get_mx">
+            <behavior symbol="function">
+                <append>($[$hostname], $[&amp;$hosts])</append>
+            </behavior>
+        </completion>
+        <completion string="dns_get_record">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="fsockopen">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="gethostbyaddr">
+            <behavior symbol="function">
+                <append>($[$ip])</append>
+            </behavior>
+        </completion>
+        <completion string="gethostbyname">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="gethostbynamel">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="gethostname">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="getmxrr">
+            <behavior symbol="function">
+                <append>($[$hostname], $[&amp;$hosts])</append>
+            </behavior>
+        </completion>
+        <completion string="getprotobyname">
+            <behavior symbol="function">
+                <append>($[$protocol])</append>
+            </behavior>
+        </completion>
+        <completion string="getprotobynumber">
+            <behavior symbol="function">
+                <append>($[$protocol])</append>
+            </behavior>
+        </completion>
+        <completion string="getservbyname">
+            <behavior symbol="function">
+                <append>($[$service], $[$protocol])</append>
+            </behavior>
+        </completion>
+        <completion string="getservbyport">
+            <behavior symbol="function">
+                <append>($[$port], $[$protocol])</append>
+            </behavior>
+        </completion>
+        <completion string="header_register_callback">
+            <behavior symbol="function">
+                <append>($[$callback])</append>
+            </behavior>
+        </completion>
+        <completion string="header_remove">
+            <behavior symbol="function">
+                <append>($[$name])</append>
+            </behavior>
+        </completion>
+        <completion string="header">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="headers_list">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="headers_sent">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="http_response_code">
+            <behavior symbol="function">
+                <append>($[$response_code])</append>
+            </behavior>
+        </completion>
+        <completion string="inet_ntop">
+            <behavior symbol="function">
+                <append>($[$ip])</append>
+            </behavior>
+        </completion>
+        <completion string="inet_pton">
+            <behavior symbol="function">
+                <append>($[$ip])</append>
+            </behavior>
+        </completion>
+        <completion string="ip2long">
+            <behavior symbol="function">
+                <append>($[$ip])</append>
+            </behavior>
+        </completion>
+        <completion string="long2ip">
+            <behavior symbol="function">
+                <append>($[$ip])</append>
+            </behavior>
+        </completion>
+        <completion string="openlog">
+            <behavior symbol="function">
+                <append>($[$prefix], $[$flags], $[$facility])</append>
+            </behavior>
+        </completion>
+        <completion string="pfsockopen">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="setcookie">
+            <behavior symbol="function">
+                <append>($[$name])</append>
+            </behavior>
+        </completion>
+        <completion string="setrawcookie">
+            <behavior symbol="function">
+                <append>($[$name])</append>
+            </behavior>
+        </completion>
+        <completion string="socket_get_status">
+            <behavior symbol="function">
+                <append>($[stream])</append>
+            </behavior>
+        </completion>
+        <completion string="socket_set_blocking">
+            <behavior symbol="function">
+                <append>($[$stream], $[$enable])</append>
+            </behavior>
+        </completion>
+        <completion string="socket_set_timeout">
+            <behavior symbol="function">
+                <append>($[$stream], $[$seconds])</append>
+            </behavior>
+        </completion>
+        <completion string="syslog">
+            <behavior symbol="function">
+                <append>($[$priority], $[$message])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

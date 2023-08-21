@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.funchand">
+        <completion string="call_user_func_array">
+            <behavior symbol="function">
+                <append>($[$callback], $[$args])</append>
+            </behavior>
+        </completion>
+        <completion string="call_user_func">
+            <behavior symbol="function">
+                <append>($[$callback], $[...$args])</append>
+            </behavior>
+        </completion>
+        <completion string="create_function" deprecated="true">
+            <behavior symbol="function">
+                <append>($[$args], $[$code])</append>
+            </behavior>
+        </completion>
+        <completion string="forward_static_call_array">
+            <behavior symbol="function">
+                <append>($[$callback], $[$args])</append>
+            </behavior>
+        </completion>
+        <completion string="forward_static_call">
+            <behavior symbol="function">
+                <append>($[$callback], $[...$args])</append>
+            </behavior>
+        </completion>
+        <completion string="func_get_arg">
+            <behavior symbol="function">
+                <append>($[$position])</append>
+            </behavior>
+        </completion>
+        <completion string="func_get_args">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="func_num_args">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="function_exists">
+            <behavior symbol="function">
+                <append>($[$function])</append>
+            </behavior>
+        </completion>
+        <completion string="get_defined_functions">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="register_shutdown_function">
+            <behavior symbol="function">
+                <append>($[$callback], $[...$args])</append>
+            </behavior>
+        </completion>
+        <completion string="register_tick_function">
+            <behavior symbol="function">
+                <append>($[$callback], $[...$args])</append>
+            </behavior>
+        </completion>
+        <completion string="unregister_tick_function">
+            <behavior symbol="function">
+                <append>($[$callback])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

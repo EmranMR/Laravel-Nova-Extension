@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.sessions">
+        <completion string="session_abort">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_cache_expire">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="session_cache_limiter">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="session_commit">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_create_id">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_decode">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="session_destroy">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_encode">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_gc">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_get_cookie_params">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_id">
+            <behavior symbol="function">
+                <append>($[$id])</append>
+            </behavior>
+        </completion>
+        <completion string="session_module_name">
+            <behavior symbol="function">
+                <append>($[$module])</append>
+            </behavior>
+        </completion>
+        <completion string="session_name">
+            <behavior symbol="function">
+                <append>($[$name])</append>
+            </behavior>
+        </completion>
+        <completion string="session_regenerate_id">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_register_shutdown">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_reset">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_save_path">
+            <behavior symbol="function">
+                <append>($[$path])</append>
+            </behavior>
+        </completion>
+        <completion string="session_set_cookie_params">
+            <behavior symbol="function">
+                <append>($[$lifetime_or_options])</append>
+            </behavior>
+        </completion>
+        <completion string="session_set_save_handler">
+            <behavior symbol="function">
+                <append>($[$open], $[$close], $[$read], $[$write], $[$destroy], $[$gc])</append>
+            </behavior>
+        </completion>
+        <completion string="session_start">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_status">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_unset">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="session_write_close">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

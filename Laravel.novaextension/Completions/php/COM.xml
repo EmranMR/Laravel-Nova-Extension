@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.com">
+        <completion string="com_create_guid">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="com_event_sink">
+            <behavior symbol="function">
+                <append>($[$variant], $[$sink_object])</append>
+            </behavior>
+        </completion>
+        <completion string="com_get_active_object">
+            <behavior symbol="function">
+                <append>($[$prog_id])</append>
+            </behavior>
+        </completion>
+        <completion string="com_load_typelib">
+            <behavior symbol="function">
+                <append>($[$typelib])</append>
+            </behavior>
+        </completion>
+        <completion string="com_message_pump">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="com_print_typeinfo">
+            <behavior symbol="function">
+                <append>($[$variant])</append>
+            </behavior>
+        </completion>
+        
+        <completion string="variant_abs">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_add">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_and">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_cast">
+            <behavior symbol="function">
+                <append>($[$variant], $[$type])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_cat">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_cmp">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_date_from_timestamp">
+            <behavior symbol="function">
+                <append>($[$timestamp])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_date_to_timestamp">
+            <behavior symbol="function">
+                <append>($[$variant])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_div">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_eqv">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_fix">
+            <behavior symbol="function">
+                <append>($[$variant])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_get_type">
+            <behavior symbol="function">
+                <append>($[$variant])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_idiv">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_imp">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_int">
+            <behavior symbol="function">
+                <append>($[$variant])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_mod">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_mul">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_neg">
+            <behavior symbol="function">
+                <append>($[$variant])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_or">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_not">
+            <behavior symbol="function">
+                <append>($[$variant])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_pow">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_round">
+            <behavior symbol="function">
+                <append>($[$variant], $[$decimals])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_set_type">
+            <behavior symbol="function">
+                <append>($[$variant], $[$type])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_sub">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_set">
+            <behavior symbol="function">
+                <append>($[$variant], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="variant_xor">
+            <behavior symbol="function">
+                <append>($[$left], $[$right])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

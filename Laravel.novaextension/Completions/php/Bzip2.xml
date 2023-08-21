@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.bzip2">
+        <completion string="bzclose">
+            <behavior symbol="function">
+                <append>($[$bz])</append>
+            </behavior>
+        </completion>
+        <completion string="bzcompress">
+            <behavior symbol="function">
+                <append>($[$source])</append>
+            </behavior>
+        </completion>
+        <completion string="bzdecompress">
+            <behavior symbol="function">
+                <append>($[$source])</append>
+            </behavior>
+        </completion>
+        <completion string="bzerrno">
+            <behavior symbol="function">
+                <append>($[$bz])</append>
+            </behavior>
+        </completion>
+        <completion string="bzerror">
+            <behavior symbol="function">
+                <append>($[$bz])</append>
+            </behavior>
+        </completion>
+        <completion string="bzerrstr">
+            <behavior symbol="function">
+                <append>($[$bz])</append>
+            </behavior>
+        </completion>
+        <completion string="bzflush">
+            <behavior symbol="function">
+                <append>($[$bz])</append>
+            </behavior>
+        </completion>
+        <completion string="bzopen">
+            <behavior symbol="function">
+                <append>($[$filename], $[$mode])</append>
+            </behavior>
+        </completion>
+        <completion string="bzread">
+            <behavior symbol="function">
+                <append>($[$bz])</append>
+            </behavior>
+        </completion>
+        <completion string="bzwrite">
+            <behavior symbol="function">
+                <append>($[$bz], $[$data])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

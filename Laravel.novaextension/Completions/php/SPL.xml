@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.spl">
+        <completion string="class_implements">
+            <behavior symbol="function">
+                <append>($[$class])</append>
+            </behavior>
+        </completion>
+        <completion string="class_parents">
+            <behavior symbol="function">
+                <append>($[$class])</append>
+            </behavior>
+        </completion>
+        <completion string="class_uses">
+            <behavior symbol="function">
+                <append>($[$class])</append>
+            </behavior>
+        </completion>
+        <completion string="iterator_apply">
+            <behavior symbol="function">
+                <append>($[$iterator], $[$function], $[...$args])</append>
+            </behavior>
+        </completion>
+        <completion string="iterator_count">
+            <behavior symbol="function">
+                <append>($[$iterator])</append>
+            </behavior>
+        </completion>
+        <completion string="iterator_to_array">
+            <behavior symbol="function">
+                <append>($[$iterator])</append>
+            </behavior>
+        </completion>
+        <completion string="spl_autoload_call">
+            <behavior symbol="function">
+                <append>($[$class_name])</append>
+            </behavior>
+        </completion>
+        <completion string="spl_autoload_extensions">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="spl_autoload_functions">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="spl_autoload_register">
+            <behavior symbol="function">
+                <append>($[$autoload_function])</append>
+            </behavior>
+        </completion>
+        <completion string="spl_autoload_unregister">
+            <behavior symbol="function">
+                <append>($[$autoload_function])</append>
+            </behavior>
+        </completion>
+        <completion string="spl_autoload">
+            <behavior symbol="function">
+                <append>($[$class_name])</append>
+            </behavior>
+        </completion>
+        <completion string="spl_classes">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="spl_object_hash">
+            <behavior symbol="function">
+                <append>($[$obj])</append>
+            </behavior>
+        </completion>
+        <completion string="spl_object_id">
+            <behavior symbol="function">
+                <append>($[$obj])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.curl">
+        <completion string="curl_close">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_copy_handle">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_errno">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_error">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_escape">
+            <behavior symbol="function">
+                <append>($[$handle], $[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_exec">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_file_create">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_getinfo">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_init">
+            <behavior symbol="function">
+                <append>($[$url])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_add_handle">
+            <behavior symbol="function">
+                <append>($[$mh], $[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_close">
+            <behavior symbol="function">
+                <append>($[$mh])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_errno">
+            <behavior symbol="function">
+                <append>($[$mh])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_exec">
+            <behavior symbol="function">
+                <append>($[$mh], $[&amp;$still_running])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_getcontent">
+            <behavior symbol="function">
+                <append>($[$mh])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_info_read">
+            <behavior symbol="function">
+                <append>($[$mh])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_init">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_remove_handle">
+            <behavior symbol="function">
+                <append>($[$mh], $[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_select">
+            <behavior symbol="function">
+                <append>($[$mh])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_setopt">
+            <behavior symbol="function">
+                <append>($[$mh], $[$option], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_multi_strerror">
+            <behavior symbol="function">
+                <append>($[$code])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_pause">
+            <behavior symbol="function">
+                <append>($[$mh], $[$flags])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_reset">
+            <behavior symbol="function">
+                <append>($[$mh])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_setopt">
+            <behavior symbol="function">
+                <append>($[$handle], $[$option], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_setopt_array">
+            <behavior symbol="function">
+                <append>($[$handle], $[$options])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_share_close">
+            <behavior symbol="function">
+                <append>($[$sh])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_share_errno">
+            <behavior symbol="function">
+                <append>($[$sh])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_share_init">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="curl_share_setopt">
+            <behavior symbol="function">
+                <append>($[$sh], $[$option], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_share_strerror">
+            <behavior symbol="function">
+                <append>($[$code])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_strerr">
+            <behavior symbol="function">
+                <append>($[$code])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_unescape">
+            <behavior symbol="function">
+                <append>($[$handle], $[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="curl_version">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

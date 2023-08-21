@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.imap">
+        <completion string="imap_8bit">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_alerts">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="imap_append">
+            <behavior symbol="function">
+                <append>($[$imap], $[$mailbox], $[$message])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_base64">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_binary">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_body">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_bodystruct">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number], $[$section])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_check">
+            <behavior symbol="function">
+                <append>($[$imap])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_clearflag_full">
+            <behavior symbol="function">
+                <append>($[$imap], $[$sequence], $[$flag])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_close">
+            <behavior symbol="function">
+                <append>($[$imap])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_create">
+            <behavior symbol="function">
+                <append>($[$imap], $[$mailbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_createmailbox">
+            <behavior symbol="function">
+                <append>($[$imap], $[$mailbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_delete">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_deletemailbox">
+            <behavior symbol="function">
+                <append>($[$imap], $[$mailbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_errors">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="imap_expunge">
+            <behavior symbol="function">
+                <append>($[$imap])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_fetch_overview">
+            <behavior symbol="function">
+                <append>($[$imap], $[$sequence])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_fetchbody">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number], $[$section])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_fetchheader">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_fetchmime">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number], $[$section])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_fetchstructure">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_fetchtext">
+            <behavior symbol="function">
+                <append>($[$imap], $[$message_num])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_gc">
+            <behavior symbol="function">
+                <append>($[$imap], $[$caches])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_get_quota">
+            <behavior symbol="function">
+                <append>($[$imap], $[$quota_root])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_get_quotaroot">
+            <behavior symbol="function">
+                <append>($[$imap], $[$quota_root])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_getacl">
+            <behavior symbol="function">
+                <append>($[$imap], $[$mailbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_getmailboxes">
+            <behavior symbol="function">
+                <append>($[$imap], $[$reference], $[$pattern])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_getsubscribed">
+            <behavior symbol="function">
+                <append>($[$imap], $[$reference], $[$pattern])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_header" deprecated="true">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_headerinfo">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_headers">
+            <behavior symbol="function">
+                <append>($[$imap])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_last_error">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="imap_list">
+            <behavior symbol="function">
+                <append>($[$imap], $[$reference], $[$pattern])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_listmailbox">
+            <behavior symbol="function">
+                <append>($[$imap], $[$reference], $[$pattern])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_listscan">
+            <behavior symbol="function">
+                <append>($[$imap], $[$reference], $[$pattern], $[$content])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_listsubscribed">
+            <behavior symbol="function">
+                <append>($[$imap], $[reference])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_lsub">
+            <behavior symbol="function">
+                <append>($[$imap], $[$reference], $[$pattern])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_mail">
+            <behavior symbol="function">
+                <append>($[$to], $[$subject], $[$message])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_mail_compose">
+            <behavior symbol="function">
+                <append>($[array $envelope], $[array $body])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_mail_copy">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msglist], $[$mailbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_mail_move">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msglist], $[$mailbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_mailboxmsginfo">
+            <behavior symbol="function">
+                <append>($[$imap])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_mime_header_decode">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_msgno">
+            <behavior symbol="function">
+                <append>($[$imap], $[$uid])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_mutf7_to_utf8">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_num_msg">
+            <behavior symbol="function">
+                <append>($[$imap])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_num_recent">
+            <behavior symbol="function">
+                <append>($[$imap])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_open">
+            <behavior symbol="function">
+                <append>($[$mailbox], $[$username], $[$password])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_ping">
+            <behavior symbol="function">
+                <append>($[$imap])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_qprint">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_rename">
+            <behavior symbol="function">
+                <append>($[$imap], $[$old_mbox], $[$new_mbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_renamemailbox">
+            <behavior symbol="function">
+                <append>($[$imap], $[$old_mbox], $[$new_mbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_reopen">
+            <behavior symbol="function">
+                <append>($[$imap], $[$mailbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_rfc822_parse_adrlist">
+            <behavior symbol="function">
+                <append>($[$address], $[$default_host])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_rfc822_parse_headers">
+            <behavior symbol="function">
+                <append>($[$headers])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_rfc822_write_address">
+            <behavior symbol="function">
+                <append>($[$mailbox], $[$host], $[$personal])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_savebody">
+            <behavior symbol="function">
+                <append>($[$imap], $[$file], $[$msg_number])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_scan">
+            <behavior symbol="function">
+                <append>($[$imap], $[$reference], $[$pattern], $[$content])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_scanmailbox">
+            <behavior symbol="function">
+                <append>($[$imap], $[$reference], $[$pattern], $[$content])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_search">
+            <behavior symbol="function">
+                <append>($[$imap], $[$criteria])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_set_quota">
+            <behavior symbol="function">
+                <append>($[$imap], $[$quota_root], $[$quota_limit])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_setacl">
+            <behavior symbol="function">
+                <append>($[$imap], $[$mailbox], $[$id], $[$rights])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_setflag_full">
+            <behavior symbol="function">
+                <append>($[$imap], $[$sequence], $[$flag])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_sort">
+            <behavior symbol="function">
+                <append>($[$imap], $[$criteria], $[$reverse])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_status">
+            <behavior symbol="function">
+                <append>($[$imap], $[$mailbox], $[$options])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_subscribe">
+            <behavior symbol="function">
+                <append>($[$imap], $[$mailbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_thread">
+            <behavior symbol="function">
+                <append>($[$imap])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_timeout">
+            <behavior symbol="function">
+                <append>($[$timeout_type])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_uid">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_undelete">
+            <behavior symbol="function">
+                <append>($[$imap], $[$msg_number])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_unsubscribe">
+            <behavior symbol="function">
+                <append>($[$imap], $[$mailbox])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_utf7_decode">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_utf7_encode">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_utf8_to_mutf7">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="imap_utf8">
+            <behavior symbol="function">
+                <append>($[$mime_encoded_text])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

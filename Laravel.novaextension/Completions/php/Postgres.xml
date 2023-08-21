@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.pgsql">
+        <completion string="pg_affected_rows">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_cancel_query">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_client_encoding">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_close">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_connect_poll">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_connect">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_connection_busy">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_connection_reset">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_connection_status">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_consume_input">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_convert">
+            <behavior symbol="function">
+                <append>($[$connection], $[$table_name], $[$assoc_array])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_copy_from">
+            <behavior symbol="function">
+                <append>($[$connection], $[$table_name], $[$rows])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_copy_to">
+            <behavior symbol="function">
+                <append>($[$connection], $[$table_name])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_dbname">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_delete">
+            <behavior symbol="function">
+                <append>($[$connection], $[$table_name], $[$assoc_array])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_end_copy">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_escape_bytea">
+            <behavior symbol="function">
+                <append>($[$connection], $[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_escape_identifier">
+            <behavior symbol="function">
+                <append>($[$connection], $[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_escape_literal">
+            <behavior symbol="function">
+                <append>($[$connection], $[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_escape_string">
+            <behavior symbol="function">
+                <append>($[$connection], $[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_execute">
+            <behavior symbol="function">
+                <append>($[$connection], $[$stmt], $[$params])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_fetch_all_columns">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_fetch_all">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_fetch_array">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_fetch_assoc">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_fetch_object">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_fetch_result">
+            <behavior symbol="function">
+                <append>($[$result], $[$row], $[mixed $field])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_fetch_row">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_field_is_null">
+            <behavior symbol="function">
+                <append>($[$result], $[$row], $[mixed $field])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_field_name">
+            <behavior symbol="function">
+                <append>($[$result], $[$field_number])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_field_num">
+            <behavior symbol="function">
+                <append>($[$result], $[$field_name])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_field_prtlen">
+            <behavior symbol="function">
+                <append>($[$result], $[$row_number], $[mixed $field_name_or_number])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_field_size">
+            <behavior symbol="function">
+                <append>($[$result], $[$field_number])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_field_table">
+            <behavior symbol="function">
+                <append>($[$result], $[$field_number])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_field_type_oid">
+            <behavior symbol="function">
+                <append>($[$result], $[$field_number])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_field_type">
+            <behavior symbol="function">
+                <append>($[$result], $[$field_number])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_flush">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_free_result">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_get_notify">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_get_pid">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_get_result">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_host">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_insert">
+            <behavior symbol="function">
+                <append>($[$connection], $[$table_name], $[$assoc_array])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_last_error">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_last_notice">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_last_oid">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_close">
+            <behavior symbol="function">
+                <append>($[$large_object])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_create">
+            <behavior symbol="function">
+                <append>($[$object_id])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_export">
+            <behavior symbol="function">
+                <append>($[$connection], $[$oid], $[$pathname])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_import">
+            <behavior symbol="function">
+                <append>($[$connection], $[$pathname], $[$object_id])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_open">
+            <behavior symbol="function">
+                <append>($[$connection], $[$oid], $[$mode])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_read_all">
+            <behavior symbol="function">
+                <append>($[$large_object])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_read">
+            <behavior symbol="function">
+                <append>($[$large_object])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_seek">
+            <behavior symbol="function">
+                <append>($[$large_object], $[$offset])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_tell">
+            <behavior symbol="function">
+                <append>($[$large_object])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_truncate">
+            <behavior symbol="function">
+                <append>($[$large_object], $[$size])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_unlink">
+            <behavior symbol="function">
+                <append>($[$connection], $[$oid])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_lo_write">
+            <behavior symbol="function">
+                <append>($[$large_object], $[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_meta_data">
+            <behavior symbol="function">
+                <append>($[$connection], $[$table_name])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_num_fields">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_num_rows">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_options">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_parameter_status">
+            <behavior symbol="function">
+                <append>($[$connection], $[$param_name])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_pconnect">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_ping">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_port">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_prepare">
+            <behavior symbol="function">
+                <append>($[$connection], $[$stmtname], $[$query])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_put_line">
+            <behavior symbol="function">
+                <append>($[$connection], $[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_query_params">
+            <behavior symbol="function">
+                <append>($[$connection], $[$query], $[$params])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_query">
+            <behavior symbol="function">
+                <append>($[$connection], $[$query])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_result_error_field">
+            <behavior symbol="function">
+                <append>($[$result], $[$fieldcode])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_result_error">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_result_seek">
+            <behavior symbol="function">
+                <append>($[$result], $[$offset])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_result_status">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_select">
+            <behavior symbol="function">
+                <append>($[$connection], $[$table_name], $[$assoc_array])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_send_execute">
+            <behavior symbol="function">
+                <append>($[$connection], $[$stmtname], $[$params])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_send_prepare">
+            <behavior symbol="function">
+                <append>($[$connection], $[$stmtname], $[$query])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_send_query_params">
+            <behavior symbol="function">
+                <append>($[$connection], $[$query], $[$params])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_send_query">
+            <behavior symbol="function">
+                <append>($[$connection], $[$query])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_set_client_encoding">
+            <behavior symbol="function">
+                <append>($[$connection], $[$encoding])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_set_error_verbosity">
+            <behavior symbol="function">
+                <append>($[$connection], $[$verbosity])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_socket">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_trace">
+            <behavior symbol="function">
+                <append>($[$pathname])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_transaction_status">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_tty">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_unescape_bytea">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_untrace">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_update">
+            <behavior symbol="function">
+                <append>($[$connection], $[$table_name], $[$data], $[$condition])</append>
+            </behavior>
+        </completion>
+        <completion string="pg_version">
+            <behavior symbol="function">
+                <append>($[$connection])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

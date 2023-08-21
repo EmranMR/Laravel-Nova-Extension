@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.dom">
+        <completion string="dom_import_simplexml">
+            <behavior symbol="function">
+                <append>($[$node])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

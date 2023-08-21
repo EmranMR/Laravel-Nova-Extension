@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.array">
+        <completion string="array">
+            <behavior symbol="function">
+                <append>($[$...])</append>
+            </behavior>
+        </completion>
+        <completion string="array_change_key_case">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_chunk">
+            <behavior symbol="function">
+                <append>($[$array], $[$length])</append>
+            </behavior>
+        </completion>
+        <completion string="array_column">
+            <behavior symbol="function">
+                <append>($[$array], $[column_key])</append>
+            </behavior>
+        </completion>
+        <completion string="array_combine">
+            <behavior symbol="function">
+                <append>($[$keys], $[$values])</append>
+            </behavior>
+        </completion>
+        <completion string="array_count_values">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_diff_assoc">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_diff_key">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_diff_uassoc">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays], $[$key_compare_func])</append>
+            </behavior>
+        </completion>
+        <completion string="array_diff_ukey">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays], $[$key_compare_func])</append>
+            </behavior>
+        </completion>
+        <completion string="array_diff">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_fill_keys">
+            <behavior symbol="function">
+                <append>($[$keys], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="array_fill">
+            <behavior symbol="function">
+                <append>($[$start_index], $[$num], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="array_flip">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_filter">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_intersect_assoc">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_intersect_key">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_intersect_uassoc">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays], $[$key_compare_func])</append>
+            </behavior>
+        </completion>
+        <completion string="array_intersect_ukey">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays], $[$key_compare_func])</append>
+            </behavior>
+        </completion>
+        <completion string="array_intersect">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_key_exists">
+            <behavior symbol="function">
+                <append>($[$key], $[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_key_first">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_key_last">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_keys">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_keys">
+            <behavior symbol="function">
+                <append>($[$array], $[$search_value])</append>
+            </behavior>
+        </completion>
+        <completion string="array_map">
+            <behavior symbol="function">
+                <append>($[$callback], $[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_merge">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_merge_recursive">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_multisort">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_pad">
+            <behavior symbol="function">
+                <append>($[$array], $[$length], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="array_pop">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_product">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_push">
+            <behavior symbol="function">
+                <append>($[&amp;$array], $[...$values])</append>
+            </behavior>
+        </completion>
+        <completion string="array_rand">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_reduce">
+            <behavior symbol="function">
+                <append>($[$array], $[$callback])</append>
+            </behavior>
+        </completion>
+        <completion string="array_replace">
+            <behavior symbol="function">
+                <append>($[&amp;$array], $[...$replacements])</append>
+            </behavior>
+        </completion>
+        <completion string="array_replace_recursive">
+            <behavior symbol="function">
+                <append>($[&amp;$array], $[...$replacements])</append>
+            </behavior>
+        </completion>
+        <completion string="array_reverse">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_search">
+            <behavior symbol="function">
+                <append>($[$needle], $[$haystack])</append>
+            </behavior>
+        </completion>
+        <completion string="array_shift">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_slice">
+            <behavior symbol="function">
+                <append>($[$array], $[$offset])</append>
+            </behavior>
+        </completion>
+        <completion string="array_splice">
+            <behavior symbol="function">
+                <append>($[&amp;$array], $[$offset])</append>
+            </behavior>
+        </completion>
+        <completion string="array_sum">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_udiff_assoc">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_uintersect_assoc">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays])</append>
+            </behavior>
+        </completion>
+        <completion string="array_udiff_uassoc">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays], $[$value_compare_func])</append>
+            </behavior>
+        </completion>
+        <completion string="array_udiff">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays], $[$value_compare_func])</append>
+            </behavior>
+        </completion>
+        <completion string="array_uintersect_uassoc">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays], $[$value_compare_func])</append>
+            </behavior>
+        </completion>
+        <completion string="array_uintersect">
+            <behavior symbol="function">
+                <append>($[$array], $[...$arrays], $[$value_compare_func])</append>
+            </behavior>
+        </completion>
+        <completion string="array_unique">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_unshift">
+            <behavior symbol="function">
+                <append>($[&amp;$array], $[...$values])</append>
+            </behavior>
+        </completion>
+        <completion string="array_values">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="array_walk">
+            <behavior symbol="function">
+                <append>($[&amp;$array], $[$callback])</append>
+            </behavior>
+        </completion>
+        <completion string="array_walk_recursive">
+            <behavior symbol="function">
+                <append>($[&amp;$array], $[$callback])</append>
+            </behavior>
+        </completion>
+        <completion string="arsort">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="asort">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="compact">
+            <behavior symbol="function">
+                <append>($[$var_name])</append>
+            </behavior>
+        </completion>
+        <completion string="current">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="count">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="each" deprecated="true">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="end">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="extract">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="in_array">
+            <behavior symbol="function">
+                <append>($[$needle], $[$haystack])</append>
+            </behavior>
+        </completion>
+        <completion string="key_exists">
+            <behavior symbol="function">
+                <append>($[$key], $[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="key">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="krsort">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="ksort">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="list">
+            <behavior symbol="function">
+                <append>($[$var])</append>
+            </behavior>
+        </completion>
+        <completion string="natcasesort">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="natsort">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="next">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="pos">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="prev">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="range">
+            <behavior symbol="function">
+                <append>($[$start], $[$limit])</append>
+            </behavior>
+        </completion>
+        <completion string="reset">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="rsort">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="shuffle">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="sizeof">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="sort">
+            <behavior symbol="function">
+                <append>($[&amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="uasort">
+            <behavior symbol="function">
+                <append>($[&amp;$array], $[$callback])</append>
+            </behavior>
+        </completion>
+        <completion string="uksort">
+            <behavior symbol="function">
+                <append>($[&amp;$array], $[$callback])</append>
+            </behavior>
+        </completion>
+        <completion string="usort">
+            <behavior symbol="function">
+                <append>($[&amp;$array], $[$callback])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

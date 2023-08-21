@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.xmlrpc">
+        <completion string="xmlrpc_decode">
+            <behavior symbol="function">
+                <append>($[$xml])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_decode_request">
+            <behavior symbol="function">
+                <append>($[$xml], $[&amp;$method])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_encode">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_encode_request">
+            <behavior symbol="function">
+                <append>($[$method], $[$params])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_get_type">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_is_fault">
+            <behavior symbol="function">
+                <append>($[$arg])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_parse_method_descriptions">
+            <behavior symbol="function">
+                <append>($[$xml])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_server_add_introspection_data">
+            <behavior symbol="function">
+                <append>($[$server], $[$desc])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_server_call_method">
+            <behavior symbol="function">
+                <append>($[$server], $[$xml], $[$user_data])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_server_create">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_server_destroy">
+            <behavior symbol="function">
+                <append>($[$server])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_server_register_introspection_callback">
+            <behavior symbol="function">
+                <append>($[$server], $[$function])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_server_register_method">
+            <behavior symbol="function">
+                <append>($[$server], $[$method_name], $[$function])</append>
+            </behavior>
+        </completion>
+        <completion string="xmlrpc_set_type">
+            <behavior symbol="function">
+                <append>($[&amp;$value], $[$type])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

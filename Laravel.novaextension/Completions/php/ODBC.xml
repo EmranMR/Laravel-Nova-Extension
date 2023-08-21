@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.odbc">
+        <completion string="odbc_autocommit">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_binmode">
+            <behavior symbol="function">
+                <append>($[$statement], $[$mode])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_close_all">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_close">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_columnprivileges">
+            <behavior symbol="function">
+                <append>($[$odbc], $[$catalog], $[$schema], $[$table], $[$column])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_columns">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_commit">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_connect">
+            <behavior symbol="function">
+                <append>($[$dsn], $[$user], $[$password])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_cursor">
+            <behavior symbol="function">
+                <append>($[$statement])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_data_source">
+            <behavior symbol="function">
+                <append>($[$odbc], $[$fetch_type])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_do">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_error">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_errormsg">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_exec">
+            <behavior symbol="function">
+                <append>($[$odbc], $[$query])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_execute">
+            <behavior symbol="function">
+                <append>($[$statement])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_fetch_array">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_fetch_into">
+            <behavior symbol="function">
+                <append>($[$statement], $[array &amp;$array])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_fetch_object">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_fetch_row">
+            <behavior symbol="function">
+                <append>($[$statement])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_field_len">
+            <behavior symbol="function">
+                <append>($[$statement], $[$field])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_field_name">
+            <behavior symbol="function">
+                <append>($[$statement], $[$field])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_field_num">
+            <behavior symbol="function">
+                <append>($[$statement], $[$field])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_field_precision">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_field_scale">
+            <behavior symbol="function">
+                <append>($[$statement], $[$field])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_field_type">
+            <behavior symbol="function">
+                <append>($[$statement], $[$field])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_foreignkeys">
+            <behavior symbol="function">
+                <append>($[$odbc], $[$pk_catalog], $[$pk_schema], $[$pk_table], $[$fk_catalog], $[$fk_schema], $[$fk_table])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_free_result">
+            <behavior symbol="function">
+                <append>($[$statement])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_gettypeinfo">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_longreadlen">
+            <behavior symbol="function">
+                <append>($[$statement], $[$length])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_next_result">
+            <behavior symbol="function">
+                <append>($[$statement])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_num_fields">
+            <behavior symbol="function">
+                <append>($[$statement])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_num_rows">
+            <behavior symbol="function">
+                <append>($[$statement])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_pconnect">
+            <behavior symbol="function">
+                <append>($[$dsn], $[$user], $[$password])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_prepare">
+            <behavior symbol="function">
+                <append>($[$odbc], $[$query_string])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_primarykeys">
+            <behavior symbol="function">
+                <append>($[$odbc], $[$catalog], $[$schema], $[$table])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_procedurecolumns">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_procedures">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_result_all">
+            <behavior symbol="function">
+                <append>($[$statement])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_result">
+            <behavior symbol="function">
+                <append>($[$statement], $[$field])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_rollback">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_setoption">
+            <behavior symbol="function">
+                <append>($[$odbc], $[$which], $[$option], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_specialcolumns">
+            <behavior symbol="function">
+                <append>($[$odbc], $[$type], $[$catalog], $[$schema], $[$table], $[$scope], $[$nullable])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_statistics">
+            <behavior symbol="function">
+                <append>($[$odbc], $[$catalog], $[$schema], $[$table], $[$unique], $[$accuracy])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_tableprivileges">
+            <behavior symbol="function">
+                <append>($[$odbc], $[$catalog], $[$schema], $[$table])</append>
+            </behavior>
+        </completion>
+        <completion string="odbc_tables">
+            <behavior symbol="function">
+                <append>($[$odbc])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.classkit">
+        <completion string="classkit_import">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="classkit_method_add">
+            <behavior symbol="function">
+                <append>($[$classname], $[$methodname], $[$args], $[$code])</append>
+            </behavior>
+        </completion>
+        <completion string="classkit_method_copy">
+            <behavior symbol="function">
+                <append>($[$dClass], $[$dMethod], $[$sClass])</append>
+            </behavior>
+        </completion>
+        <completion string="classkit_method_redefine">
+            <behavior symbol="function">
+                <append>($[$classname], $[$methodname], $[$args], $[$code])</append>
+            </behavior>
+        </completion>
+        <completion string="classkit_method_remove">
+            <behavior symbol="function">
+                <append>($[$classname], $[$methodname])</append>
+            </behavior>
+        </completion>
+        <completion string="classkit_method_rename">
+            <behavior symbol="function">
+                <append>($[$classname], $[$methodname], $[$newname])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

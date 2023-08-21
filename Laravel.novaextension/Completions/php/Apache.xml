@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.apache">
+        <completion string="apache_child_terminate">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="apache_get_modules">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="apache_get_version">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="apache_getenv">
+            <behavior symbol="function">
+                <append>($[$variable])</append>
+            </behavior>
+        </completion>
+        <completion string="apache_lookup_uri">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="apache_note">
+            <behavior symbol="function">
+                <append>($[$note_name])</append>
+            </behavior>
+        </completion>
+        <completion string="apache_request_headers">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="apache_response_headers">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="apache_setenv">
+            <behavior symbol="function">
+                <append>($[$variable], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="getallheaders">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="virtual">
+            <behavior symbol="function">
+                <append>($[$uri])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

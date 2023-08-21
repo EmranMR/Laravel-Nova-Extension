@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.dba">
+        <completion string="dba_close">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_delete">
+            <behavior symbol="function">
+                <append>($[$key], $[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_exists">
+            <behavior symbol="function">
+                <append>($[$key], $[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_fetch">
+            <behavior symbol="function">
+                <append>($[$key], $[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_firstkey">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_handlers">
+            <behavior symbol="function">
+                <append>($[$full_info])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_insert">
+            <behavior symbol="function">
+                <append>($[$key], $[$value], $[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_key_split">
+            <behavior symbol="function">
+                <append>($[$key])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_list">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="dba_nextkey">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_open">
+            <behavior symbol="function">
+                <append>($[$path], $[$mode])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_optimize">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_popen">
+            <behavior symbol="function">
+                <append>($[$path], $[$mode])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_replace">
+            <behavior symbol="function">
+                <append>($[$key], $[$value], $[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="dba_sync">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

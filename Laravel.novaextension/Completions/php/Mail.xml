@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.mail">
+        <completion string="mail">
+            <behavior symbol="function">
+                <append>($[$to], $[$subject], $[$message])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

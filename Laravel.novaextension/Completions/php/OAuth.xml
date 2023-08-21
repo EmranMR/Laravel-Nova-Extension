@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.oauth">
+        <completion string="oauth_get_sbs">
+            <behavior symbol="function">
+                <append>($[$http_method], $[$uri])</append>
+            </behavior>
+        </completion>
+        <completion string="oauth_urlencode">
+            <behavior symbol="function">
+                <append>($[$uri])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

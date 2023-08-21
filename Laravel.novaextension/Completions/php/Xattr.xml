@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.xattr">
+        <completion string="xattr_get">
+            <behavior symbol="function">
+                <append>($[$filename], $[$name])</append>
+            </behavior>
+        </completion>
+        <completion string="xattr_list">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="xattr_remove">
+            <behavior symbol="function">
+                <append>($[$filename], $[$name])</append>
+            </behavior>
+        </completion>
+        <completion string="xattr_set">
+            <behavior symbol="function">
+                <append>($[$filename], $[$name], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="xattr_supported">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

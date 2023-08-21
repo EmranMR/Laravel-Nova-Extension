@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.pcntl">
+        <completion string="pcntl_alarm">
+            <behavior symbol="function">
+                <append>($[$seconds])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_async_signals">
+            <behavior symbol="function">
+                <append>($[$on])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_errno">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_exec">
+            <behavior symbol="function">
+                <append>($[$path])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_fork">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_get_last_error">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_getpriority">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_setpriority">
+            <behavior symbol="function">
+                <append>($[$priority])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_signal">
+            <behavior symbol="function">
+                <append>($[$signo], $[$handler])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_signal_dispatch">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_signal_get_handler">
+            <behavior symbol="function">
+                <append>($[$signo])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_sigprocmask">
+            <behavior symbol="function">
+                <append>($[$how], $[$set])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_sigtimedwait">
+            <behavior symbol="function">
+                <append>($[$set])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_sigwaitinfo">
+            <behavior symbol="function">
+                <append>($[$set])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_strerror">
+            <behavior symbol="function">
+                <append>($[$errno])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_wait">
+            <behavior symbol="function">
+                <append>($[&amp;$status])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_waitpid">
+            <behavior symbol="function">
+                <append>($[$pid], $[&amp;$status])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_wexitstatus">
+            <behavior symbol="function">
+                <append>($[$status])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_wifexited">
+            <behavior symbol="function">
+                <append>($[$status])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_wifsignaled">
+            <behavior symbol="function">
+                <append>($[$status])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_wifstopped">
+            <behavior symbol="function">
+                <append>($[$status])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_wstopsig">
+            <behavior symbol="function">
+                <append>($[$status])</append>
+            </behavior>
+        </completion>
+        <completion string="pcntl_wtermsig">
+            <behavior symbol="function">
+                <append>($[$status])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

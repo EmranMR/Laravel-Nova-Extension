@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.urls">
+        <completion string="base64_decode">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="base64_encode">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="get_headers">
+            <behavior symbol="function">
+                <append>($[$url])</append>
+            </behavior>
+        </completion>
+        <completion string="get_meta_tags">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="http_build_query">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="parse_url">
+            <behavior symbol="function">
+                <append>($[$url])</append>
+            </behavior>
+        </completion>
+        <completion string="rawurldecode">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="rawurlencode">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="urldecode">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="urlencode">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

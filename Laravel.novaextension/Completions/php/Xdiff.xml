@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.xdiff">
+        <completion string="xdiff_file_bdiff_size">
+            <behavior symbol="function">
+                <append>($[$file])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_file_bdiff">
+            <behavior symbol="function">
+                <append>($[$old_file], $[$new_file], $[$dest])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_file_bpatch">
+            <behavior symbol="function">
+                <append>($[$file], $[$patch], $[$dest])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_file_diff_binary">
+            <behavior symbol="function">
+                <append>($[$old_file], $[$new_file], $[$dest])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_file_diff">
+            <behavior symbol="function">
+                <append>($[$old_file], $[$new_file], $[$dest])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_file_merge3">
+            <behavior symbol="function">
+                <append>($[$old_file], $[$new_file1], $[$new_file2], $[$dest])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_file_patch_binary">
+            <behavior symbol="function">
+                <append>($[$file], $[$patch], $[$dest])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_patch">
+            <behavior symbol="function">
+                <append>($[$file], $[$patch], $[$dest])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_file_rabdiff">
+            <behavior symbol="function">
+                <append>($[$old_file], $[$new_file], $[$dest])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_string_bdiff_size">
+            <behavior symbol="function">
+                <append>($[$patch])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_string_bdiff">
+            <behavior symbol="function">
+                <append>($[$old_data], $[$new_data])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_string_bpatch">
+            <behavior symbol="function">
+                <append>($[$str], $[$patch])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_string_diff">
+            <behavior symbol="function">
+                <append>($[$old_data], $[$new_data])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_string_diff_binary">
+            <behavior symbol="function">
+                <append>($[$old_data], $[$new_data])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_string_merge3">
+            <behavior symbol="function">
+                <append>($[$old_data], $[$new_data1], $[$new_data2])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_string_patch">
+            <behavior symbol="function">
+                <append>($[$str], $[$patch])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_string_patch_binary">
+            <behavior symbol="function">
+                <append>($[$str], $[$patch])</append>
+            </behavior>
+        </completion>
+        <completion string="xdiff_string_rabdiff">
+            <behavior symbol="function">
+                <append>($[$old_data], $[$new_data])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

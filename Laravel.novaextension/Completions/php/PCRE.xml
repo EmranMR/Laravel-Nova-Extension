@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.pcre">
+        <completion string="preg_filter">
+            <behavior symbol="function">
+                <append>($[$pattern], $[$replacement], $[$subject])</append>
+            </behavior>
+        </completion>
+        <completion string="preg_grep">
+            <behavior symbol="function">
+                <append>($[$pattern], $[$input])</append>
+            </behavior>
+        </completion>
+        <completion string="preg_last_error">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="preg_last_error_msg">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="preg_match">
+            <behavior symbol="function">
+                <append>($[$pattern], $[$subject])</append>
+            </behavior>
+        </completion>
+        <completion string="preg_match_all">
+            <behavior symbol="function">
+                <append>($[$pattern], $[$subject])</append>
+            </behavior>
+        </completion>
+        <completion string="preg_quote">
+            <behavior symbol="function">
+                <append>($[$str])</append>
+            </behavior>
+        </completion>
+        <completion string="preg_replace">
+            <behavior symbol="function">
+                <append>($[$pattern], $[$replacement], $[$subject])</append>
+            </behavior>
+        </completion>
+        <completion string="preg_replace_callback">
+            <behavior symbol="function">
+                <append>($[$pattern], $[$callback], $[$subject])</append>
+            </behavior>
+        </completion>
+        <completion string="preg_replace_callback_array">
+            <behavior symbol="function">
+                <append>($[$pattern], $[$subject])</append>
+            </behavior>
+        </completion>
+        <completion string="preg_split">
+            <behavior symbol="function">
+                <append>($[$pattern], $[$subject])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

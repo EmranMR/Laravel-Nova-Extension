@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.dio">
+        <completion string="dio_close">
+            <behavior symbol="function">
+                <append>($[$fd])</append>
+            </behavior>
+        </completion>
+        <completion string="dio_fcntl">
+            <behavior symbol="function">
+                <append>($[$fd], $[$cmd])</append>
+            </behavior>
+        </completion>
+        <completion string="dio_open">
+            <behavior symbol="function">
+                <append>($[$filename], $[$flags])</append>
+            </behavior>
+        </completion>
+        <completion string="dio_read">
+            <behavior symbol="function">
+                <append>($[$fd])</append>
+            </behavior>
+        </completion>
+        <completion string="dio_seek">
+            <behavior symbol="function">
+                <append>($[$fd], $[$pos])</append>
+            </behavior>
+        </completion>
+        <completion string="dio_stat">
+            <behavior symbol="function">
+                <append>($[$fd])</append>
+            </behavior>
+        </completion>
+        <completion string="dio_tcsetattr">
+            <behavior symbol="function">
+                <append>($[$fd], $[$options])</append>
+            </behavior>
+        </completion>
+        <completion string="dio_truncate">
+            <behavior symbol="function">
+                <append>($[$fd], $[$offset])</append>
+            </behavior>
+        </completion>
+        <completion string="dio_write">
+            <behavior symbol="function">
+                <append>($[$fd], $[$data])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

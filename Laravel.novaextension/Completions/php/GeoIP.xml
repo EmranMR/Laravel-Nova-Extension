@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.geoip">
+        <completion string="geoip_asnum_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_continent_code_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_country_code_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_country_code3_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_country_name_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_database_info">
+            <behavior symbol="function">
+                <append>($[$database])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_db_avail">
+            <behavior symbol="function">
+                <append>($[$database])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_db_filename">
+            <behavior symbol="function">
+                <append>($[$database])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_db_get_all_info">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_domain_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_id_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_isp_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_netspeedcell_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_org_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_record_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_region_by_name">
+            <behavior symbol="function">
+                <append>($[$hostname])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_region_name_by_code">
+            <behavior symbol="function">
+                <append>($[$country_code], $[$region_code])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_setup_custom_directory">
+            <behavior symbol="function">
+                <append>($[$path])</append>
+            </behavior>
+        </completion>
+        <completion string="geoip_time_zone_by_country_and_region">
+            <behavior symbol="function">
+                <append>($[$country_code])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

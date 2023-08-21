@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.iconv">
+        <completion string="iconv_get_encoding">
+            <behavior symbol="function">
+                <append>($[$type])</append>
+            </behavior>
+        </completion>
+        <completion string="iconv_mime_decode_headers">
+            <behavior symbol="function">
+                <append>($[$headers])</append>
+            </behavior>
+        </completion>
+        <completion string="iconv_decode">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="iconv_encode">
+            <behavior symbol="function">
+                <append>($[$field_name], $[$field_value])</append>
+            </behavior>
+        </completion>
+        <completion string="iconv_set_encoding">
+            <behavior symbol="function">
+                <append>($[$type], $[$encoding])</append>
+            </behavior>
+        </completion>
+        <completion string="iconv_strlen">
+            <behavior symbol="function">
+                <append>($[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="iconv_strpos">
+            <behavior symbol="function">
+                <append>($[$haystack], $[$needle], $[$offset])</append>
+            </behavior>
+        </completion>
+        <completion string="iconv_strrpos">
+            <behavior symbol="function">
+                <append>($[$haystack], $[$needle], $[$offset])</append>
+            </behavior>
+        </completion>
+        <completion string="iconv_substr">
+            <behavior symbol="function">
+                <append>($[$string], $[$offset], $[$length])</append>
+            </behavior>
+        </completion>
+        <completion string="iconv">
+            <behavior symbol="function">
+                <append>($[$from_encoding], $[$to_encoding], $[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="ob_iconv_handler">
+            <behavior symbol="function">
+                <append>($[$contents], $[$status])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

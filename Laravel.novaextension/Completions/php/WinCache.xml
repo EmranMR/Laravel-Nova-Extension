@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.wincache">
+        <completion string="wincache_fcache_fileinfo">
+            <behavior symbol="function">
+                <append>($[$summaryonly])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_fcache_meminfo">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_lock">
+            <behavior symbol="function">
+                <append>($[$key])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ocache_fileinfo">
+            <behavior symbol="function">
+                <append>($[$summaryonly])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ocache_meminfo">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_refresh_if_changed">
+            <behavior symbol="function">
+                <append>($[$files])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_rplist_fileinfo">
+            <behavior symbol="function">
+                <append>($[$summaryonly])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_rplist_meminfo">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_scache_info">
+            <behavior symbol="function">
+                <append>($[$summaryonly])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_scache_meminfo">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_add">
+            <behavior symbol="function">
+                <append>($[$key], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_cas">
+            <behavior symbol="function">
+                <append>($[$key], $[$old_value], $[$new_value])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_clear">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_dec">
+            <behavior symbol="function">
+                <append>($[$key])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_delete">
+            <behavior symbol="function">
+                <append>($[$key])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_exists">
+            <behavior symbol="function">
+                <append>($[$key])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_get">
+            <behavior symbol="function">
+                <append>($[$key])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_inc">
+            <behavior symbol="function">
+                <append>($[$key])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_info">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_meminfo">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_ucache_set">
+            <behavior symbol="function">
+                <append>($[$key], $[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="wincache_unlock">
+            <behavior symbol="function">
+                <append>($[$key])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

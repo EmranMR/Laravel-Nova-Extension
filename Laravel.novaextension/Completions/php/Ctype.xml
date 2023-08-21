@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.ctype">
+        <completion string="ctype_alnum">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="ctype_alpha">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="ctype_cntrl">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="ctype_digit">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="ctype_graph">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="ctype_lower">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="ctype_print">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="ctype_punct">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="ctype_space">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="ctype_upper">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+        <completion string="ctype_xdigit">
+            <behavior symbol="function">
+                <append>($[$text])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.var">
+        <completion string="boolval">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="debug_zval_dump">
+            <behavior symbol="function">
+                <append>($[$value], $[...$values])</append>
+            </behavior>
+        </completion>
+        <completion string="doubleval">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="empty">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="floatval">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="get_debug_type">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="get_defined_vars">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="get_resource_id">
+            <behavior symbol="function">
+                <append>($[$resource])</append>
+            </behavior>
+        </completion>
+        <completion string="get_resource_type">
+            <behavior symbol="function">
+                <append>($[$resource])</append>
+            </behavior>
+        </completion>
+        <completion string="gettype">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="intval">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_array">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_bool">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_callable">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_countable">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_double">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_float">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_int">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_integer">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_iterable">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_long">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_null">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_numeric">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_object">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_real">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_resource">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_scalar">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="is_string">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="isset">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="print_r">
+            <behavior symbol="function">
+                <append>($[$expression])</append>
+            </behavior>
+        </completion>
+        <completion string="serialize">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="settype">
+            <behavior symbol="function">
+                <append>($[&amp;$value], $[$type])</append>
+            </behavior>
+        </completion>
+        <completion string="strval">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="unserialize">
+            <behavior symbol="function">
+                <append>($[$str])</append>
+            </behavior>
+        </completion>
+        <completion string="unset">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+        <completion string="var_dump">
+            <behavior symbol="function">
+                <append>($[$expression])</append>
+            </behavior>
+        </completion>
+        <completion string="var_export">
+            <behavior symbol="function">
+                <append>($[$expression])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.zlib">
+        <completion string="deflate_add">
+            <behavior symbol="function">
+                <append>($[$context], $[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="deflate_init">
+            <behavior symbol="function">
+                <append>($[$encoding])</append>
+            </behavior>
+        </completion>
+        <completion string="gzclose">
+            <behavior symbol="function">
+                <append>($[$stream])</append>
+            </behavior>
+        </completion>
+        <completion string="gzcompress">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="gzdecode">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="gzdeflate">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="gzencode">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="gzeof">
+            <behavior symbol="function">
+                <append>($[$stream])</append>
+            </behavior>
+        </completion>
+        <completion string="gzfile">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="gzgetc">
+            <behavior symbol="function">
+                <append>($[$stream])</append>
+            </behavior>
+        </completion>
+        <completion string="gzgets">
+            <behavior symbol="function">
+                <append>($[$stream], $[$length])</append>
+            </behavior>
+        </completion>
+        <completion string="gzgetss" deprecated="true">
+            <behavior symbol="function">
+                <append>($[$stream], $[$length])</append>
+            </behavior>
+        </completion>
+        <completion string="gzinflate">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="gzopen">
+            <behavior symbol="function">
+                <append>($[$filename], $[$mode])</append>
+            </behavior>
+        </completion>
+        <completion string="gzpassthru">
+            <behavior symbol="function">
+                <append>($[$stream])</append>
+            </behavior>
+        </completion>
+        <completion string="gzputs">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="gzread">
+            <behavior symbol="function">
+                <append>($[$stream], $[$length])</append>
+            </behavior>
+        </completion>
+        <completion string="gzrewind">
+            <behavior symbol="function">
+                <append>($[$stream])</append>
+            </behavior>
+        </completion>
+        <completion string="gzseek">
+            <behavior symbol="function">
+                <append>($[$stream], $[$offset])</append>
+            </behavior>
+        </completion>
+        <completion string="gztell">
+            <behavior symbol="function">
+                <append>($[$stream])</append>
+            </behavior>
+        </completion>
+        <completion string="gzuncompress">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="gzwrite">
+            <behavior symbol="function">
+                <append>($[$stream], $[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="inflate_add">
+            <behavior symbol="function">
+                <append>($[$context], $[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="inflate_get_read_len">
+            <behavior symbol="function">
+                <append>($[$context]</append>
+            </behavior>
+        </completion>
+        <completion string="inflate_get_status">
+            <behavior symbol="function">
+                <append>($[$context]</append>
+            </behavior>
+        </completion>
+        <completion string="inflate_init">
+            <behavior symbol="function">
+                <append>($[$encoding]</append>
+            </behavior>
+        </completion>
+        <completion string="readgzfile">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="zlib_decode">
+            <behavior symbol="function">
+                <append>($[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="zlib_encode">
+            <behavior symbol="function">
+                <append>($[$data], $[$encoding])</append>
+            </behavior>
+        </completion>
+        <completion string="zlib_get_coding_type">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.files">
+        <completion string="basename">
+            <behavior symbol="function">
+                <append>($[$path])</append>
+            </behavior>
+        </completion>
+        <completion string="chgrp">
+            <behavior symbol="function">
+                <append>($[$filename], $[$group])</append>
+            </behavior>
+        </completion>
+        <completion string="chmod">
+            <behavior symbol="function">
+                <append>($[$filename], $[$mode])</append>
+            </behavior>
+        </completion>
+        <completion string="chown">
+            <behavior symbol="function">
+                <append>($[$filename], $[$user])</append>
+            </behavior>
+        </completion>
+        <completion string="clearstatcache">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="copy">
+            <behavior symbol="function">
+                <append>($[$source], $[$dest])</append>
+            </behavior>
+        </completion>
+        <completion string="delete">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="dirname">
+            <behavior symbol="function">
+                <append>($[$path])</append>
+            </behavior>
+        </completion>
+        <completion string="disk_free_space">
+            <behavior symbol="function">
+                <append>($[$directory])</append>
+            </behavior>
+        </completion>
+        <completion string="disk_total_space">
+            <behavior symbol="function">
+                <append>($[$directory])</append>
+            </behavior>
+        </completion>
+        <completion string="diskfreespace">
+            <behavior symbol="function">
+                <append>($[$directory])</append>
+            </behavior>
+        </completion>
+        <completion string="fclose">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="feof">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="fflush">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="fgetc">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="fgetcsv">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="fgets">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="fgetss" deprecated="true">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="file_exists">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="file_get_contents">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="file_put_contents">
+            <behavior symbol="function">
+                <append>($[$filename], $[$data])</append>
+            </behavior>
+        </completion>
+        <completion string="file">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="fileatime">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="filectime">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="filegroup">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="fileinode">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="filemtime">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="fileowner">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="fileperms">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="filesize">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="filetype">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="flock">
+            <behavior symbol="function">
+                <append>($[$handle], $[$operation])</append>
+            </behavior>
+        </completion>
+        <completion string="fnmatch">
+            <behavior symbol="function">
+                <append>($[$pattern], $[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="fopen">
+            <behavior symbol="function">
+                <append>($[$filename], $[$mode])</append>
+            </behavior>
+        </completion>
+        <completion string="fpassthru">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="fputs">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="fputcsv">
+            <behavior symbol="function">
+                <append>($[$handle], $[$fields])</append>
+            </behavior>
+        </completion>
+        <completion string="fread">
+            <behavior symbol="function">
+                <append>($[$handle], $[$length])</append>
+            </behavior>
+        </completion>
+        <completion string="fscanf">
+            <behavior symbol="function">
+                <append>($[$handle], $[$format])</append>
+            </behavior>
+        </completion>
+        <completion string="fseek">
+            <behavior symbol="function">
+                <append>($[$handle], $[$offset])</append>
+            </behavior>
+        </completion>
+        <completion string="fstat">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="ftell">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="ftruncate">
+            <behavior symbol="function">
+                <append>($[$handle], $[$size])</append>
+            </behavior>
+        </completion>
+        <completion string="fwrite">
+            <behavior symbol="function">
+                <append>($[$handle], $[$string])</append>
+            </behavior>
+        </completion>
+        <completion string="glob">
+            <behavior symbol="function">
+                <append>($[$pattern])</append>
+            </behavior>
+        </completion>
+        <completion string="is_dir">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="is_executable">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="is_file">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="is_link">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="is_readable">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="is_uploaded_file">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="is_writeable">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="is_writable">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="lchgrp">
+            <behavior symbol="function">
+                <append>($[$filename], $[$group])</append>
+            </behavior>
+        </completion>
+        <completion string="lchown">
+            <behavior symbol="function">
+                <append>($[$filename], $[$user])</append>
+            </behavior>
+        </completion>
+        <completion string="link">
+            <behavior symbol="function">
+                <append>($[$target], $[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="linkinfo">
+            <behavior symbol="function">
+                <append>($[$path])</append>
+            </behavior>
+        </completion>
+        <completion string="lstat">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="mkdir">
+            <behavior symbol="function">
+                <append>($[$pathname])</append>
+            </behavior>
+        </completion>
+        <completion string="move_uploaded_file">
+            <behavior symbol="function">
+                <append>($[$filename], $[$destination])</append>
+            </behavior>
+        </completion>
+        <completion string="parse_ini_file">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="parse_ini_string">
+            <behavior symbol="function">
+                <append>($[$ini])</append>
+            </behavior>
+        </completion>
+        <completion string="pathinfo">
+            <behavior symbol="function">
+                <append>($[$path])</append>
+            </behavior>
+        </completion>
+        <completion string="pclose">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="popen">
+            <behavior symbol="function">
+                <append>($[$command], $[$mode])</append>
+            </behavior>
+        </completion>
+        <completion string="readfile">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="readlink">
+            <behavior symbol="function">
+                <append>($[$path])</append>
+            </behavior>
+        </completion>
+        <completion string="realpath_cache_get">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="realpath_cache_size">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="realpath">
+            <behavior symbol="function">
+                <append>($[$path])</append>
+            </behavior>
+        </completion>
+        <completion string="rename">
+            <behavior symbol="function">
+                <append>($[$oldname], $[$newname])</append>
+            </behavior>
+        </completion>
+        <completion string="rewind">
+            <behavior symbol="function">
+                <append>($[$handle])</append>
+            </behavior>
+        </completion>
+        <completion string="rmdir">
+            <behavior symbol="function">
+                <append>($[$dirname])</append>
+            </behavior>
+        </completion>
+        <completion string="set_file_buffer">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="stat">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="symlink">
+            <behavior symbol="function">
+                <append>($[$target], $[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="tempnam">
+            <behavior symbol="function">
+                <append>($[$dir], $[$prefix])</append>
+            </behavior>
+        </completion>
+        <completion string="tmpfile">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="touch">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+        <completion string="umask">
+            <behavior symbol="function">
+                <append>($[$mask])</append>
+            </behavior>
+        </completion>
+        <completion string="unlink">
+            <behavior symbol="function">
+                <append>($[$filename])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

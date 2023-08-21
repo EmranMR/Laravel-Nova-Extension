@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.filter">
+        <completion string="filter_has_var">
+            <behavior symbol="function">
+                <append>($[$input_type], $[$var_name])</append>
+            </behavior>
+        </completion>
+        <completion string="filter_id">
+            <behavior symbol="function">
+                <append>($[$name])</append>
+            </behavior>
+        </completion>
+        <completion string="filter_input_array">
+            <behavior symbol="function">
+                <append>($[$type])</append>
+            </behavior>
+        </completion>
+        <completion string="filter_input">
+            <behavior symbol="function">
+                <append>($[$type], $[$var_name])</append>
+            </behavior>
+        </completion>
+        <completion string="filter_list">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="filter_var_array">
+            <behavior symbol="function">
+                <append>($[$array])</append>
+            </behavior>
+        </completion>
+        <completion string="filter_var">
+            <behavior symbol="function">
+                <append>($[$value])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>

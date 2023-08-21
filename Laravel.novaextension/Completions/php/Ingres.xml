@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<completions>
+    <set name="php.core.functions.ingres">
+        <completion string="ingres_autocommit_state">
+            <behavior symbol="function">
+                <append>($[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_autocommit">
+            <behavior symbol="function">
+                <append>($[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_charset">
+            <behavior symbol="function">
+                <append>($[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_close">
+            <behavior symbol="function">
+                <append>($[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_commit">
+            <behavior symbol="function">
+                <append>($[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_connect">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_cursor">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_errno">
+            <behavior symbol="function">
+                <append>($[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_error">
+            <behavior symbol="function">
+                <append>($[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_errsqlstate">
+            <behavior symbol="function">
+                <append>($[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_escape_string">
+            <behavior symbol="function">
+                <append>($[$link], $[$source_string])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_execute">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_fetch_array">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_fetch_assoc">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_fetch_object">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_fetch_proc_return">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_fetch_row">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_field_length">
+            <behavior symbol="function">
+                <append>($[$result], $[$index])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_field_name">
+            <behavior symbol="function">
+                <append>($[$result], $[$index])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_field_nullable">
+            <behavior symbol="function">
+                <append>($[$result], $[$index])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_field_precision">
+            <behavior symbol="function">
+                <append>($[$result], $[$index])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_field_scale">
+            <behavior symbol="function">
+                <append>($[$result], $[$index])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_field_type">
+            <behavior symbol="function">
+                <append>($[$result], $[$index])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_free_result">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_next_error">
+            <behavior symbol="function">
+                <append>($[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_num_fields">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_num_rows">
+            <behavior symbol="function">
+                <append>($[$result])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_pconnect">
+            <behavior symbol="function">
+                <append>()</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_prepare">
+            <behavior symbol="function">
+                <append>($[$link], $[$query])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_query">
+            <behavior symbol="function">
+                <append>($[$link], $[$query])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_result_seek">
+            <behavior symbol="function">
+                <append>($[$result], $[$position])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_rollback">
+            <behavior symbol="function">
+                <append>($[$link])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_set_environment">
+            <behavior symbol="function">
+                <append>($[$link], $[$options])</append>
+            </behavior>
+        </completion>
+        <completion string="ingres_unbuffered_query">
+            <behavior symbol="function">
+                <append>($[$link], $[$query])</append>
+            </behavior>
+        </completion>
+    </set>
+</completions>
