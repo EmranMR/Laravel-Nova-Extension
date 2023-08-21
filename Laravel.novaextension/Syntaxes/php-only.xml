@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<syntax name="php-only">
+<syntax name="php-only" subsyntax="true">
     <meta>
         <name>PHP ONLY</name>
         <scriptable shebang="#!/usr/bin/env php" />

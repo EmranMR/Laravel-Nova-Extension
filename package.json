@@ -11,7 +11,7 @@
         "prebuild": "npm run generate -w tree-sitter-blade",
         "build": "./TreeSitterParserBuild/compile_parser.sh ${PWD}/tree-sitter-blade /Applications/Nova.app/ && ./TreeSitterParserBuild/compile_parser.sh ${PWD}/tree-sitter-php/tree-sitter-php-only /Applications/Nova.app/ ",
         "postbuild": "npm run move && npm run clean && npm run sign",
-        "move": "mv ./build/lib/*.dylib ./Laravel.novaextension/Syntaxes/ && mv ./Laravel.novaextension/Syntaxes/libtree-sitter-php.dylib ./Laravel.novaextension/Syntaxes/libtree-sitter-php_only.dylib",
+        "move": "mv ./build/lib/*.dylib ./Laravel.novaextension/Syntaxes/",
         "clean": "rm -rf ./build ./tree-sitter-blade/libtree-sitter-blade.dylib ./tree-sitter-blade/build tree-sitter-php/tree-sitter-php-only/*.dylib",
         "sign": "codesign -s - ./Laravel.novaextension/Syntaxes/libtree-sitter-blade.dylib && codesign -s - ./Laravel.novaextension/Syntaxes/libtree-sitter-php_only.dylib"
     },
@@ -22,7 +22,8 @@
     "keywords": [
         "Laravel",
         "blade",
-        "Nova"
+        "Nova",
+        "Livewire"
     ],
     "author": "Emran Ramezan",
     "license": "MIT",
