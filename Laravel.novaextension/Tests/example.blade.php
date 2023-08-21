@@ -9,7 +9,7 @@
 
 <body>
     <div>
-
+        {{echo "hello world"}}
     </div>
 </body>
 </html>

@@ -2,3 +2,5 @@
 .nova
 .vscode
 node_modules
+
+build/
