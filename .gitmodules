@@ -1,3 +1,7 @@
 [submodule "tree-sitter-blade"]
 	path = tree-sitter-blade
 	url = git@github.com:EmranMR/tree-sitter-blade.git
+[submodule "tree-sitter-php"]
+	path = tree-sitter-php
+	url = git@github.com:EmranMR/tree-sitter-php.git
+	branch = split_parsers
