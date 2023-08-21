@@ -1,57 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <completions>
-    <!-- "<?" -->
-    <provider>
-        <syntax>php</syntax>
-        
-        <exclude-selector>string, comment</exclude-selector>
-        
-        <trigger>?</trigger>
-        
-        <expression>(?&lt;=&lt;\?)([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)</expression>
-        
-        <set>php.tags</set>
-    </provider>
-    
+
     <!-- "$foo" -->
     <provider>
-        <syntax>php</syntax>
-        
+        <syntax>php-only</syntax>
+
         <exclude-selector>comment</exclude-selector>
-        
+
         <expression>(?&lt;!\-&gt;|\:\:)(\$([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)?)</expression>
-        
+
         <trigger>$</trigger>
-        
+
         <symbols type="variable,argument,constant" />
-        
+
         <set>php.core.this</set>
         <set>php.core.variables</set>
         <set>php.core.superglobals</set>
-        
+
         <identifiers />
     </provider>
-    
+
     <!-- "foo" -->
     <provider>
-        <syntax>php</syntax>
-        
+        <syntax>php-only</syntax>
+
         <exclude-selector>string, comment</exclude-selector>
-        
+
         <expression>(?&lt;!\-&gt;|\:\:|\$)(\b[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)</expression>
-        
+
         <symbols type="function">
             <behavior>
                 <arguments prefix="(" suffix=")" separator=", " />
             </behavior>
         </symbols>
         <symbols type="class,protocol" />
-        
+
         <set>php.keywords</set>
-        
+
         <set>php.core.constants</set>
         <set>php.core.magic-constants</set>
-        
+
         <!--
             Core & Bundled Extensions:
             https://www.php.net/manual/en/extensions.membership.php#extensions.membership.core
@@ -128,49 +116,49 @@
         <set>php.core.functions.zip</set>
         <set>php.core.functions.zlib</set>
     </provider>
-    
+
     <!-- "$foo" within strings -->
     <provider>
-        <syntax>php</syntax>
-        
+        <syntax>php-only</syntax>
+
         <match-selector>string</match-selector>
-        
+
         <expression>(?&lt;!\-&gt;|\:\:)(\$(?:[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)?)</expression>
-        
+
         <trigger>$</trigger>
-        
+
         <!-- https://www.php.net/manual/en/language.types.string.php#language.types.string.parsing -->
         <symbols type="variable,argument,constant" />
-        
+
         <set>php.core.this</set>
         <set>php.core.variables</set>
         <set>php.core.superglobals</set>
     </provider>
-    
+
     <!-- "::$foo" -->
     <provider>
-        <syntax>php</syntax>
-        
+        <syntax>php-only</syntax>
+
         <exclude-selector>comment</exclude-selector>
-        
+
         <expression capture="1">(?&lt;=\:\:)\$([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)?</expression>
-        
+
         <trigger>:$</trigger>
-        
+
         <!-- https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.properties -->
         <symbols type="static-property" />
     </provider>
-    
+
     <!-- "::foo" -->
     <provider>
-        <syntax>php</syntax>
-        
+        <syntax>php-only</syntax>
+
         <exclude-selector>comment</exclude-selector>
-        
+
         <expression>(?&lt;=\:\:)([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)?</expression>
-        
+
         <trigger>:</trigger>
-        
+
         <!-- https://www.php.net/manual/en/language.oop5.static.php#language.oop5.static.methods -->
         <symbols type="static-method">
             <behavior>
@@ -178,17 +166,17 @@
             </behavior>
         </symbols>
     </provider>
-    
+
     <!-- "->foo" -->
     <provider>
-        <syntax>php</syntax>
-        
+        <syntax>php-only</syntax>
+
         <exclude-selector>comment</exclude-selector>
-        
+
         <expression>(?&lt;=\-&gt;)([a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*)?</expression>
-        
+
         <trigger>&gt;</trigger>
-        
+
         <!-- https://www.php.net/manual/en/language.oop5.properties.php -->
         <symbols type="method">
             <behavior>
@@ -197,11 +185,9 @@
         </symbols>
         <symbols type="property" />
     </provider>
-    
-    <set name="php.tags" symbol="tag">
-        <completion string="php" priority="100" />
-    </set>
-    
+
+
+
     <set name="php.keywords" symbol="statement">
         <!-- https://www.php.net/manual/en/reserved.keywords.php -->
         <completion string="abstract" />
@@ -279,11 +265,11 @@
         <completion string="xor" />
         <completion string="yield" />
     </set>
-    
+
     <set name="php.core.this" symbol="variable">
         <completion string="$this" />
     </set>
-    
+
     <set name="php.core.superglobals" symbol="variable">
         <!-- https://www.php.net/manual/en/language.variables.superglobals -->
         <completion string="$GLOBALS" />
@@ -296,14 +282,14 @@
         <completion string="$_ENV" />
         <completion string="$_COOKIE" />
     </set>
-    
+
     <set name="php.core.variables" symbol="variable">
         <completion string="$php_errormsg" deprecated="true" />
         <completion string="$http_response_header" />
         <completion string="$argc" />
         <completion string="$argv" />
     </set>
-    
+
     <set name="php.core.constants" symbol="constant">
         <!-- https://www.php.net/manual/en/reserved.constants.php -->
         <completion string="PHP_VERSION" />
@@ -358,7 +344,7 @@
         <completion string="E_ALL" />
         <completion string="E_STRICT" />
     </set>
-    
+
     <set name="php.core.magic-constants" symbol="statement">
         <!-- https://www.php.net/manual/en/language.constants.predefined.php -->
         <completion string="__CLASS__" />

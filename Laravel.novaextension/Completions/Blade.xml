@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<completions name="blade">
+<completions name="Blade">
     <!-- !General/Universal completion set -->
     <provider name="blade.general">
-        <syntax>blade</syntax>
+        <syntax>Blade</syntax>
         <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <trigger>@</trigger>
@@ -15,7 +15,7 @@
     </provider>
     <!-- ! attributes.xml -->
     <provider name="blade.attributes">
-        <syntax>blade</syntax>
+        <syntax>Blade</syntax>
         <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <trigger>@</trigger>
@@ -26,7 +26,7 @@
     </provider>
     <!-- !conditional keywords -->
     <provider name="blade.conditional.keywords">
-        <syntax>blade</syntax>
+        <syntax>Blade</syntax>
         <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <exclude-selector>comment, attribute</exclude-selector>
@@ -38,7 +38,7 @@
     </provider>
     <!-- !switch keywords -->
     <provider name="blade.switch.keywords">
-        <syntax>blade</syntax>
+        <syntax>Blade</syntax>
         <syntax>html</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <exclude-selector>comment, attribute</exclude-selector>
