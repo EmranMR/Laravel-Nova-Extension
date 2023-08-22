@@ -34,7 +34,8 @@
 
     <!-- !switch_keyword -->
     <set name="blade.switch.keywords">
-        <completion symbol="constant" string="@break"/>
+        <!-- uncomment once the <query> bug is fixed by panic -->
+        <!-- <completion symbol="constant" string="@break"/> -->
         <completion symbol="constant" string="@default"/>
         <completion symbol="function" string="@case">
             <behavior prefix="@">

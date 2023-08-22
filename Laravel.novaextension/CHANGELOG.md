@@ -1,3 +1,33 @@
+## v1.1.0
+
+### New Features ✨:
+
+#### Completion Support for the following directives.
+
+1. Completion now covers all the directives supported in
+   `tree-sitter-blade` and they are as it follows:
+
+-   **loops**
+    -   `@for`
+    -   `@foreach`
+    -   `@forelse`
+    -   `@while`
+-   **Livewire 🪼**
+    -   `@persist`
+    -   `@teleport`
+    -   `@volt`
+
+2. Syntax Highlighting adjustment
+    - The attribute directives now match the theme colouring for
+      `tag.attribute.name`
+    - For other directives theme selector has been changed to
+      `tag.framework` so that it is semantically correct
+
+### Bug Fixes: 🐞
+
+-   Fixed the issue `@verbatim` adding parameter in completion
+-   Remove duplicate `@break` until the issue is fixed in #10
+
 ## 📣 1.0.0 🎉
 
 ##### Finally support for `php` **injection** 🥳 as well php autocompletion that is provided by Nova! see below for more info 👇

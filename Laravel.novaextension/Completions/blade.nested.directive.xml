@@ -21,7 +21,7 @@
         <!-- !verbatim -->
         <completion string="@verbatim" symbol="block">
             <behavior>
-                <append>($[parameter])&#10;&#9;$[body]&#10;@endverbatim</append>
+                <append>&#10;&#9;$[body]&#10;@endverbatim</append>
             </behavior>
         </completion>
 
@@ -140,6 +140,52 @@
         <completion string="@switch" symbol="block">
             <behavior>
                 <append>($[parameter])&#10;&#9;@case($[case])&#10;&#9;&#9;$[body]&#10;&#9;&#9;@break&#10;@endswitch</append>
+            </behavior>
+        </completion>
+
+        <!-- !loop -->
+        <!-- !for -->
+        <completion string="@for" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endfor</append>
+            </behavior>
+        </completion>
+        <!-- !foreach -->
+        <completion string="@foreach" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endforeach</append>
+            </behavior>
+        </completion>
+        <!-- !forelse -->
+        <completion string="@forelse" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endforelse</append>
+            </behavior>
+        </completion>
+        <!-- !while -->
+        <completion string="@while" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endwhile</append>
+            </behavior>
+        </completion>
+
+        <!-- !livewire 🪼 -->
+        <!-- !persist -->
+        <completion string="@persist" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endpersist</append>
+            </behavior>
+        </completion>
+        <!-- !teleport -->
+        <completion string="@teleport" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endteleport</append>
+            </behavior>
+        </completion>
+        <!-- !volt -->
+        <completion string="@volt" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endvolt</append>
             </behavior>
         </completion>
     </set>

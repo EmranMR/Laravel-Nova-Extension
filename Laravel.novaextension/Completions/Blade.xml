@@ -48,4 +48,16 @@
         </query>
         <set>blade.switch.keywords</set>
     </provider>
+    <!-- !loop keywords/operators -->
+    <provider name="blade.loop.keywords">
+        <syntax>Blade</syntax>
+        <syntax>html</syntax>
+        <expression>@[a-zA-Z0-9-]*</expression>
+        <exclude-selector>comment, attribute</exclude-selector>
+        <trigger>@</trigger>
+        <query>
+            (loop)
+        </query>
+        <set>blade.loop.keywords</set>
+    </provider>
 </completions>
