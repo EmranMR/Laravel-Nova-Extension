@@ -1,11 +1,16 @@
+## v.1.1.1
+
+### Bug Fixes: 🐞
+
+-   Fixes attribute html injection problems. See #11
+
 ## v1.1.0
 
 ### New Features ✨:
 
-#### Completion Support for the following directives.
+#### 1. Completion now covers all the directives supported in
 
-1. Completion now covers all the directives supported in
-   `tree-sitter-blade` and they are as it follows:
+`tree-sitter-blade` and they are as it follows:
 
 -   **loops**
     -   `@for`
@@ -17,11 +22,12 @@
     -   `@teleport`
     -   `@volt`
 
-2. Syntax Highlighting adjustment
-    - The attribute directives now match the theme colouring for
-      `tag.attribute.name`
-    - For other directives theme selector has been changed to
-      `tag.framework` so that it is semantically correct
+#### 2. Syntax Highlighting adjustment
+
+-   The attribute directives now match the theme colouring for
+    `tag.attribute.name`
+-   For other directives theme selector has been changed to
+    `tag.framework` so that it is semantically correct
 
 ### Bug Fixes: 🐞
 
