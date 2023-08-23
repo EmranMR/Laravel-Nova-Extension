@@ -4,7 +4,8 @@
     "description": "Laravel Extension for Nova editor by panic. Providing syntax highlightin, folding and injection  support using tree-sitter-blade plus autocompletiton, snippets and many more features in the future...",
     "main": "index.js",
     "workspaces": [
-        "tree-sitter-blade"
+        "tree-sitter-blade",
+        "tree-sitter-php"
     ],
     "scripts": {
         "test": "npm run test -w tree-sitter-blade",

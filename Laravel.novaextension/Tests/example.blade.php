@@ -10,6 +10,9 @@
 <body>
     <div>
         {{echo "hello world"}}
+
+        <div @class('test') slot="test" class="test">
+
     </div>
 </body>
 </html>

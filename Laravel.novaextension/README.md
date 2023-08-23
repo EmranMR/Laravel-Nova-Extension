@@ -57,7 +57,7 @@ projects. A bit ambitious but hopefully we can get there one day!
 
     <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/php%20injection.gif?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
 
--   Context aware autocompletion (_wip_)
+-   Context aware autocompletion
 
     -   There is a
         [bug 🐞](https://devforum.nova.app/t/bug-query-element-for-tree-sitter-based-completion-sets-when-using-injection-scm/2331)
@@ -66,7 +66,8 @@ projects. A bit ambitious but hopefully we can get there one day!
 
     -   For currently supported directives see the **changelog** or
         **github release notes**
-    -   More directives are on the way, as I work through them. 😬
+    -   New completions will be added in parallel to
+        `tree-sitter-blade`, as that project grows
 
     <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/Completion.gif?raw=true" width="60%" style="border-radius: 2%" alt="completion" title="completion" />
 
