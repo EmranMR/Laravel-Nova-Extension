@@ -1,3 +1,16 @@
+## v1.2.0
+
+### New Features ✨:
+
+-   bumped `tree-sitter-blade`🌳 to v0.4.1
+-   Support for Authorisation Directives:
+    -   `@can`
+    -   `@canany`
+    -   `@cannot`
+    -   `@elsecan`
+    -   `@elsecannot`
+    -   `@elsecanany`
+
 ## v.1.1.1
 
 ### Bug Fixes: 🐞

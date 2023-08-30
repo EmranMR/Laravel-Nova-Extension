@@ -11,7 +11,8 @@
     "categories": ["languages", "completions"],
     "license": "MIT",
     "description": "Laravel Suite, tree-sitter based blade syntax highlighting and completion support for laravel blade files.",
-    "version": "1.1.1",
+    "version": "1.2.0",
+    "min_runtime": "10.0",
     "repository": "https://github.com/EmranMR/Laravel-Nova-Extension",
     "bugs": "https://github.com/EmranMR/Laravel-Nova-Extension/issues",
     "funding": "https://github.com/sponsors/EmranMR"

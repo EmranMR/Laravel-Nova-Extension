@@ -60,4 +60,16 @@
         </query>
         <set>blade.loop.keywords</set>
     </provider>
+    <!-- !authorization keywords-->
+    <provider name="blade.loop.keywords">
+        <syntax>Blade</syntax>
+        <syntax>html</syntax>
+        <expression>@[a-zA-Z0-9-]*</expression>
+        <exclude-selector>comment, attribute</exclude-selector>
+        <trigger>@</trigger>
+        <query>
+            (authorization)
+        </query>
+        <set>blade.authorization.keywords</set>
+    </provider>
 </completions>

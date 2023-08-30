@@ -136,6 +136,25 @@
                 <append>($[parameter])&#10;&#9;$[body]&#10;@enderror</append>
             </behavior>
         </completion>
+        <!-- !Authorization -->
+        <!-- !can -->
+        <completion string="@can" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endcan</append>
+            </behavior>
+        </completion>
+        <!-- !cannot -->
+        <completion string="@cannot" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endcannot</append>
+            </behavior>
+        </completion>
+        <!-- !canany -->
+        <completion string="@canany" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endcanany</append>
+            </behavior>
+        </completion>
         <!-- !switch -->
         <completion string="@switch" symbol="block">
             <behavior>

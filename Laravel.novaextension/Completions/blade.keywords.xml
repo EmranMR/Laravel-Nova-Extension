@@ -44,4 +44,14 @@
         </completion>
     </set>
 
+    <!-- !authorization keywords -->
+    <set name="blade.authorization.keywords">
+        <behavior prefix="@">
+            <append>($[])</append>
+        </behavior>
+        <completion symbol="function" string="@elsecan"/>
+        <completion symbol="function" string="@elsecannot"/>
+        <completion symbol="function" string="@elsecanany"/>
+    </set>
+
 </completions>
