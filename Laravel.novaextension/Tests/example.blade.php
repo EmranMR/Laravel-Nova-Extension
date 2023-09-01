@@ -10,9 +10,9 @@
 <body>
     <div>
         {{echo "hello world"}}
-
+        {{-- hello --}}
         <div @class('test') slot="test" class="test">
-
+        @include('test')
     </div>
 </body>
 </html>
