@@ -207,5 +207,13 @@
                 <append>($[parameter])&#10;&#9;$[body]&#10;@endvolt</append>
             </behavior>
         </completion>
+
+        <!-- !pennant -->
+        <!-- !feature -->
+        <completion string="@feature" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endfeature</append>
+            </behavior>
+        </completion>
     </set>
 </completions>

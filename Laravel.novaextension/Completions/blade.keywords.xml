@@ -53,5 +53,12 @@
         <completion symbol="function" string="@elsecannot"/>
         <completion symbol="function" string="@elsecanany"/>
     </set>
+    <!-- !pennant keywords -->
+    <set name="blade.pennant.keywords">
+        <behavior prefix="@">
+            <append>($[])</append>
+        </behavior>
+        <completion symbol="function" string="@elsefeature"/>
+    </set>
 
 </completions>

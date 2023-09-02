@@ -1,3 +1,13 @@
+## v1.4.0
+
+-   Fixes bug #15 and closes feature request #14
+-   Bumps `tree-sitter-blade` to v0.6.0
+-   Added support for `bracket` selectors, allowing the themes to take
+    advantage of.
+-   Support for Laravel Pennant
+    -   `@feature`
+    -   `@elsefeature`
+
 ## v1.2.0
 
 ### New Features ✨:

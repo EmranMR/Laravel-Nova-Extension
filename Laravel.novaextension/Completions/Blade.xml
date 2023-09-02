@@ -72,4 +72,16 @@
         </query>
         <set>blade.authorization.keywords</set>
     </provider>
+    <!-- !Pennant keywords-->
+    <provider name="blade.pennant.keywords">
+        <syntax>Blade</syntax>
+        <syntax>html</syntax>
+        <expression>@[a-zA-Z0-9-]*</expression>
+        <exclude-selector>comment, attribute</exclude-selector>
+        <trigger>@</trigger>
+        <query>
+            (pennant)
+        </query>
+        <set>blade.pennant.keywords</set>
+    </provider>
 </completions>
