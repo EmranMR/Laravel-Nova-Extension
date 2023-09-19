@@ -3,7 +3,12 @@
         <!-- !section -->
         <completion string="@section" symbol="block">
             <behavior>
-                <append>($[parameter])&#10;&#9;$[body]&#10;@endsection</append>
+                <append>($[endsection])&#10;&#9;$[body]&#10;@endsection</append>
+            </behavior>
+        </completion>
+        <completion string="@section" symbol="block">
+            <behavior>
+                <append>($[show])&#10;&#9;$[body]&#10;@show</append>
             </behavior>
         </completion>
         <!-- !fragment -->

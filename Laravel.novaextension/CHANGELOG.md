@@ -1,12 +1,30 @@
+## v1.5.0
+
+## New Stuff ✨:
+
+-   Bumps `tree-sitter-blade` to
+    [v0.7.0](https://github.com/EmranMR/tree-sitter-blade/releases/tag/v0.7.0)
+-   Full support
+    [Template Inheritance](https://laravel.com/docs/10.x/blade#layouts-using-template-inheritance)
+-   `@aware`
+-   `@parent`
+-   inline `@section`
+-   nested `@section` with `@endsection` or `@show` end directive
+
 ## v1.4.0
 
--   Fixes bug #15 and closes feature request #14
+## New Stuff ✨:
+
 -   Bumps `tree-sitter-blade` to v0.6.0
 -   Added support for `bracket` selectors, allowing the themes to take
-    advantage of.
+    advantage of. #14
 -   Support for Laravel Pennant
     -   `@feature`
     -   `@elsefeature`
+
+## Bug Fix 🐞:
+
+-   Fixed bug #15
 
 ## v1.2.0
 

@@ -16,5 +16,7 @@
         <completion string="@each"/>
         <completion string="@vite"/>
         <completion string="@livewire"/>
+        <completion string="@aware"/>
+        <completion string="@section"/>
     </set>
 </completions>
