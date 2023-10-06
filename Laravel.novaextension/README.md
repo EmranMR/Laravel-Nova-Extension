@@ -2,10 +2,6 @@
 
 ---
 
--   ~~The extension is not quite there yet, because of the
-    shortcomings with `tree-sitter-php`. However feel free to use it
-    for experimenting and testing. I would appreciate any feedbacks.~~
-
 ### 🎉The Extension is now V1.0.0 🎉
 
 > ⚠️ Needless to say, if you have the
