@@ -13,6 +13,14 @@
         <set>blade.keywords</set>
         <set>blade.nested.directive</set>
     </provider>
+    <provider name="blade.general">
+        <syntax>Blade</syntax>
+        <syntax>html</syntax>
+        <expression>\{</expression>
+        <trigger>{</trigger>
+        <exclude-selector>comment, attribute</exclude-selector>
+        <set>blade.comment</set>
+    </provider>
     <!-- ! attributes.xml -->
     <provider name="blade.attributes">
         <syntax>Blade</syntax>

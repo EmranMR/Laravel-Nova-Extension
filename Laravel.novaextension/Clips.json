@@ -1,0 +1,10 @@
+{
+    "clips": [
+        {
+            "syntax": "html",
+            "content": "{{-- ${:comment} --}}",
+            "name": "comment",
+            "shortcut": "cmd-\\"
+        }
+    ]
+}
