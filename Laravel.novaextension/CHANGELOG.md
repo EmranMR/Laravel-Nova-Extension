@@ -1,3 +1,24 @@
+## v1.6.0
+
+## New Stuff ✨:
+
+-   Temporary replacement support for commenting in Blade, as there is
+    a
+    [conflict internally in Nova, when using injected languages](https://devforum.nova.app/t/comment-shortcut-improvement-in-complex-comment-situations-in-tree-sitter-based-syntax-extension/2220)
+-   There are three ways you can comments in blade files.
+
+##### 1. Typing `{`
+
+<img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/1f9bdb446e0bbaa4d36b4760750c9a8e33f3b52c/Images/comment.gif?raw=true" width="60%" style="border-radius: 2%" alt="comment" title="comment" />
+
+##### 2. typing "comment"
+
+<img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/1f9bdb446e0bbaa4d36b4760750c9a8e33f3b52c/Images/comment3.gif?raw=true" width="60%" style="border-radius: 2%" alt="comment" title="comment" />
+
+##### 3. using `CMD+\` shortcut
+
+<img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/1f9bdb446e0bbaa4d36b4760750c9a8e33f3b52c/Images/comment2.gif?raw=true" width="60%" style="border-radius: 2%" alt="comment" title="comment" />
+
 ## v1.5.0
 
 ## New Stuff ✨:

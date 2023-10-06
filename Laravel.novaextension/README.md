@@ -29,49 +29,76 @@ projects. A bit ambitious but hopefully we can get there one day!
 
 ### Features
 
--   Integration with
-    [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade)
-    is up to date as of 10.x and growing!
--   Syntax highlighting and autocompletion support for all `blade`,
-    including the
+#### 1. Integration with [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade)
+
+-   It is up to date as of 10.x and growing!
+
+#### 2. Syntax highlighting and autocompletion support for all `blade` directives
+
+-   including the
     [**_custom if statements_**](https://laravel.com/docs/master/blade#custom-if-statements)
     😱 and related projects such as the much anticipated upcoming 🚀
     Livewire v3.0.
--   `php` injection support 🥳 (this was one of the major hurdles see
+
+#### 3. `php` injection support 🥳
+
+-   (this was one of the major hurdles see
     [tree-sitter-blade#5](https://github.com/EmranMR/tree-sitter-blade/issues/5)
     and
     [Nova Forum](https://devforum.nova.app/t/tree-sitter-php-injection-help-for-syntax-extension-developments/2165)
     for the backstory 😁)
 
-    -   To find out how this was resolved checkout v1.0.0 release
-        notes / Changelog
-    -   This is a temporary measure, to overcome the `tree-sitter-php`
-        shortcomings, until the `split_parser` is merged into
-        `tree-sitter-php` and then it is adopted by Nova's first party
-        PHP syntax highlighting. Which could possibly a long time
-        until we see that...
+-   To find out how this was resolved checkout v1.0.0 release notes /
+    Changelog
+-   This is a temporary measure, to overcome the `tree-sitter-php`
+    shortcomings, until the `split_parser` is merged into
+    `tree-sitter-php` and then it is adopted by Nova's first party PHP
+    syntax highlighting. Which could possibly a long time until we see
+    that...
 
     <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/php%20injection.gif?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
 
--   Context aware autocompletion
+#### 4. Context aware autocompletion
 
-    -   There is a
-        [bug 🐞](https://devforum.nova.app/t/bug-query-element-for-tree-sitter-based-completion-sets-when-using-injection-scm/2331)
-        associated with Nova which has been reported, until then it
-        wont be as great as expected.
+-   There is a
+    [bug 🐞](https://devforum.nova.app/t/bug-query-element-for-tree-sitter-based-completion-sets-when-using-injection-scm/2331)
+    associated with Nova which has been reported, until then it wont
+    be as great as expected.
 
-    -   For currently supported directives see the **changelog** or
-        **github release notes**
-    -   New completions will be added in parallel to
-        `tree-sitter-blade`, as that project grows
+-   For currently supported directives see the **changelog** or
+    **github release notes**
+-   New completions will be added in parallel to `tree-sitter-blade`,
+    as that project grows
 
-    <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/Completion.gif?raw=true" width="60%" style="border-radius: 2%" alt="completion" title="completion" />
+<img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/Completion.gif?raw=true" width="60%" style="border-radius: 2%" alt="completion" title="completion" />
 
--   Support for indentation increase/decrease after pressing **_return
-    key_**
--   Folding Support
+#### 5. Support for indentation increase/decrease after pressing **_return key_**
 
-    <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/folding.gif?raw=true" width="60%" style="border-radius: 2%" alt="folding" title="folding" />
+#### 6. Folding Support
+
+<img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/folding.gif?raw=true" width="60%" style="border-radius: 2%" alt="folding" title="folding" />
+
+#### 7. 🚧 Commenting 🚧
+
+-   There is a
+    [conflict internally in Nova, when using injected languages](https://devforum.nova.app/t/comment-shortcut-improvement-in-complex-comment-situations-in-tree-sitter-based-syntax-extension/2220)
+-   This causes `HTML` commenting instead of blade
+-   Here are the 3 workarounds
+-   I have tried creating a shortcut for commenting the "text before
+    cursor" and "selected text", but they were buggy, because of white
+    spaces, and the VIM mode
+
+**1. Typing `{`**
+
+<img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/1f9bdb446e0bbaa4d36b4760750c9a8e33f3b52c/Images/comment.gif?raw=true" width="30%" style="border-radius: 2%" alt="comment" title="comment" />
+
+**2. typing "comment"**
+
+<img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/1f9bdb446e0bbaa4d36b4760750c9a8e33f3b52c/Images/comment3.gif?raw=true" width="30%" style="border-radius: 2%" alt="comment" title="comment" />
+
+**3. using `CMD+\` shortcut**
+
+<img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/1f9bdb446e0bbaa4d36b4760750c9a8e33f3b52c/Images/comment2.gif?raw=true" width="30%" style="border-radius: 2%" alt="comment" title="comment" />
 
 ### Staying up-to-date?
 
