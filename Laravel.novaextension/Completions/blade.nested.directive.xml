@@ -220,5 +220,55 @@
                 <append>($[parameter])&#10;&#9;$[body]&#10;@endfeature</append>
             </behavior>
         </completion>
+
+        <!-- !envoy-->
+        <!-- !task -->
+        <completion string="@task" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endtask</append>
+            </behavior>
+        </completion>
+        <!-- !story -->
+        <completion string="@story" symbol="block">
+            <behavior>
+                <append>($[parameter])&#10;&#9;$[body]&#10;@endstory</append>
+            </behavior>
+        </completion>
+       <!-- !setup -->
+        <completion string="@setup" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@endsetup</append>
+            </behavior>
+        </completion>
+       <!-- !before -->
+        <completion string="@before" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@endbefore</append>
+            </behavior>
+        </completion>
+       <!-- !after -->
+        <completion string="@after" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@endafter</append>
+            </behavior>
+        </completion>
+       <!-- !error -->
+        <completion string="@error" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@enderror</append>
+            </behavior>
+        </completion>
+       <!-- !success -->
+        <completion string="@success" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@endsuccess</append>
+            </behavior>
+        </completion>
+       <!-- !finished -->
+        <completion string="@finished" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@endfinished</append>
+            </behavior>
+        </completion>
     </set>
 </completions>

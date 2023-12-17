@@ -18,5 +18,12 @@
         <completion string="@livewire"/>
         <completion string="@aware"/>
         <completion string="@section"/>
+        <!-- !envoy -->
+        <completion string="@servers"/>
+        <completion string="@import"/>
+        <completion string="@slack"/>
+        <completion string="@discord"/>
+        <completion string="@telegram"/>
+        <completion string="@microsoftTeams"/>
     </set>
 </completions>

@@ -2,8 +2,6 @@
 
 ---
 
-### 🎉The Extension is now V1.0.0 🎉
-
 > ⚠️ Needless to say, if you have the
 > [Blade Extension](https://extensions.panic.com/extensions/melvinbeemer/melvinbeemer.Blade/)
 > installed, you need to **uninstall or disable**. Otherwise this
@@ -37,10 +35,9 @@ projects. A bit ambitious but hopefully we can get there one day!
 
 -   including the
     [**_custom if statements_**](https://laravel.com/docs/master/blade#custom-if-statements)
-    😱 and related projects such as the much anticipated upcoming 🚀
-    Livewire v3.0.
+    and related projects such as the much Livewire v3.0.
 
-#### 3. `php` injection support 🥳
+#### 3. `php` injection support
 
 -   (this was one of the major hurdles see
     [tree-sitter-blade#5](https://github.com/EmranMR/tree-sitter-blade/issues/5)
@@ -53,8 +50,8 @@ projects. A bit ambitious but hopefully we can get there one day!
 -   This is a temporary measure, to overcome the `tree-sitter-php`
     shortcomings, until the `split_parser` is merged into
     `tree-sitter-php` and then it is adopted by Nova's first party PHP
-    syntax highlighting. Which could possibly a long time until we see
-    that...
+    syntax highlighting. Which could possibly be a long time until we
+    see that...
 
     <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/php%20injection.gif?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
 
@@ -78,7 +75,14 @@ projects. A bit ambitious but hopefully we can get there one day!
 
 <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/folding.gif?raw=true" width="60%" style="border-radius: 2%" alt="folding" title="folding" />
 
-#### 7. 🚧 Commenting 🚧
+#### 7. Shell injection / Laravel Envoy
+
+-   You now get completion for laravel envoy directives
+-   On top of that, the content of the tasks are correctly parsed as
+    `shell`! 🤯
+
+<img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/Envoy%20Injection.png?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
+#### 8. 🚧 Commenting 🚧
 
 -   There is a
     [conflict internally in Nova, when using injected languages](https://devforum.nova.app/t/comment-shortcut-improvement-in-complex-comment-situations-in-tree-sitter-based-syntax-extension/2220)
@@ -118,12 +122,6 @@ the `tree-sitter-blade`. So please
 
 Anything else please raise an issue on
 [Laravel Suite repo](https://github.com/EmranMR/Laravel-Nova-Extension/issues)
-
-#### What if I dont know? 🤷‍♂️
-
-Well raise it in either repos and I will link it up to the correct
-repo, I won't bite, I promise! After all it is hard to draw the line
-sometimes especially for highlighting or folding.
 
 ###### Disclaimer
 

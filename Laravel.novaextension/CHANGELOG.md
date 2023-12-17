@@ -1,13 +1,46 @@
+## v1.7.0
+
+### New Stuff ✨:
+
+-   Bumps `tree-sitter-blade` to v0.9.2
+-   Shell injection for laravel Envoy
+
+    <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/Envoy%20Injection.png?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
+
+-   New directives
+-   **Envoy**
+    -   `@servers`
+    -   `@import`
+    -   `@task`
+    -   `@story`
+    -   `@setup`
+-   **Hooks**
+    -   `@before`
+    -   `@after`
+    -   `@error`
+    -   `@success`
+    -   `@finished`
+-   **Notifications**
+    -   `@before`
+    -   `@slack`
+    -   `@discord`
+    -   `@telegram`
+    -   `@microsoftTeams`
+
+### Bug Fix 🐞:
+
+-   parsing bug #20
+
 ## v1.6.1
 
-## Bug Fix 🐞:
+### Bug Fix 🐞:
 
 -   Emmet extension should now work as expected with Blade files! #19
     🙈
 
 ## v1.6.0
 
-## New Stuff ✨:
+### New Stuff ✨:
 
 -   Temporary replacement support for commenting in Blade, as there is
     a
@@ -28,7 +61,7 @@
 
 ## v1.5.0
 
-## New Stuff ✨:
+### New Stuff ✨:
 
 -   Bumps `tree-sitter-blade` to
     [v0.7.0](https://github.com/EmranMR/tree-sitter-blade/releases/tag/v0.7.0)
@@ -41,7 +74,7 @@
 
 ## v1.4.0
 
-## New Stuff ✨:
+### New Stuff ✨:
 
 -   Bumps `tree-sitter-blade` to v0.6.0
 -   Added support for `bracket` selectors, allowing the themes to take
@@ -50,7 +83,7 @@
     -   `@feature`
     -   `@elsefeature`
 
-## Bug Fix 🐞:
+### Bug Fix 🐞:
 
 -   Fixed bug #15
 
