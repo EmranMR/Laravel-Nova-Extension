@@ -1,6 +1,6 @@
 {
     "name": "laravel.novaextension",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "description": "Laravel Extension for Nova editor by panic. Providing syntax highlightin, folding and injection  support using tree-sitter-blade plus autocompletiton, snippets and many more features in the future...",
     "main": "index.js",
     "workspaces": [
