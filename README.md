@@ -7,15 +7,17 @@
 > installed, you need to **uninstall or disable**. Otherwise this
 > extension won't work as expected
 
-##### Sponsorship ❤️
+## Sponsorship ❤️
 
 If [this project](https://github.com/EmranMR/Laravel-Nova-Extension/)
 & [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade)
 put a delightful smile on your face, don't forget to **star ⭐**
 **both projects** or
-[_maybe sponsor..._](https://github.com/sponsors/EmranMR) ❤️👀
+[_maybe sponsor..._](https://github.com/sponsors/EmranMR) 👀
 
-#### Introduction
+<a href="https://www.buymeacoffee.com/bw8dwqpbd2w" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
+## Introduction
 
 This is a `tree-sitter` 🌳 based _syntax highlighting_ and
 _autocompletion_, built on top of the **_brand new_**✨
@@ -25,47 +27,47 @@ which was created with this project in mind.
 Hoping for this extension to be an **_all in one_** for Laravel
 projects. A bit ambitious but hopefully we can get there one day!
 
-### Features
+## Features
 
 #### 1. Integration with [tree-sitter-blade](https://github.com/EmranMR/tree-sitter-blade)
 
--   It is up to date as of 10.x and growing!
+- It is up to date as of 10.x and growing!
 
 #### 2. Syntax highlighting and autocompletion support for all `blade` directives
 
--   including the
-    [**_custom if statements_**](https://laravel.com/docs/master/blade#custom-if-statements)
-    and related projects such as the much Livewire v3.0.
+- including the
+  [**_custom if statements_**](https://laravel.com/docs/master/blade#custom-if-statements)
+  and related projects such as the much Livewire v3.0.
 
 #### 3. `php` injection support
 
--   (this was one of the major hurdles see
-    [tree-sitter-blade#5](https://github.com/EmranMR/tree-sitter-blade/issues/5)
-    and
-    [Nova Forum](https://devforum.nova.app/t/tree-sitter-php-injection-help-for-syntax-extension-developments/2165)
-    for the backstory 😁)
+- (this was one of the major hurdles see
+  [tree-sitter-blade#5](https://github.com/EmranMR/tree-sitter-blade/issues/5)
+  and
+  [Nova Forum](https://devforum.nova.app/t/tree-sitter-php-injection-help-for-syntax-extension-developments/2165)
+  for the backstory 😁)
 
--   To find out how this was resolved checkout v1.0.0 release notes /
-    Changelog
--   This is a temporary measure, to overcome the `tree-sitter-php`
-    shortcomings, until the `split_parser` is merged into
-    `tree-sitter-php` and then it is adopted by Nova's first party PHP
-    syntax highlighting. Which could possibly be a long time until we
-    see that...
+- To find out how this was resolved checkout v1.0.0 release notes /
+  Changelog
+- This is a temporary measure, to overcome the `tree-sitter-php`
+  shortcomings, until the `split_parser` is merged into
+  `tree-sitter-php` and then it is adopted by Nova's first party PHP
+  syntax highlighting. Which could possibly be a long time until we
+  see that...
 
-    <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/php%20injection.gif?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
+  <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/php%20injection.gif?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
 
 #### 4. Context aware autocompletion
 
--   There is a
-    [bug 🐞](https://devforum.nova.app/t/bug-query-element-for-tree-sitter-based-completion-sets-when-using-injection-scm/2331)
-    associated with Nova which has been reported, until then it wont
-    be as great as expected.
+- There is a
+  [bug 🐞](https://devforum.nova.app/t/bug-query-element-for-tree-sitter-based-completion-sets-when-using-injection-scm/2331)
+  associated with Nova which has been reported, until then it wont be
+  as great as expected.
 
--   For currently supported directives see the **changelog** or
-    **github release notes**
--   New completions will be added in parallel to `tree-sitter-blade`,
-    as that project grows
+- For currently supported directives see the **changelog** or **github
+  release notes**
+- New completions will be added in parallel to `tree-sitter-blade`, as
+  that project grows
 
 <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/Completion.gif?raw=true" width="60%" style="border-radius: 2%" alt="completion" title="completion" />
 
@@ -77,21 +79,21 @@ projects. A bit ambitious but hopefully we can get there one day!
 
 #### 7. Shell injection / Laravel Envoy
 
--   You now get completion for laravel envoy directives
--   On top of that, the content of the tasks are correctly parsed as
-    `shell`! 🤯
+- You now get completion for Laravel envoy directives
+- On top of that, the content of the tasks are correctly parsed as
+  `shell`! 🤯
 
 <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/Envoy%20Injection.png?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
 
 #### 8. 🚧 Commenting 🚧
 
--   There is a
-    [conflict internally in Nova, when using injected languages](https://devforum.nova.app/t/comment-shortcut-improvement-in-complex-comment-situations-in-tree-sitter-based-syntax-extension/2220)
--   This causes `HTML` commenting instead of blade
--   Here are the 3 workarounds
--   I have tried creating a shortcut for commenting the "text before
-    cursor" and "selected text", but they were buggy, because of white
-    spaces, and the VIM mode
+- There is a
+  [conflict internally in Nova, when using injected languages](https://devforum.nova.app/t/comment-shortcut-improvement-in-complex-comment-situations-in-tree-sitter-based-syntax-extension/2220)
+- This causes `HTML` commenting instead of blade
+- Here are the 3 workarounds
+- I have tried creating a shortcut for commenting the "text before
+  cursor" and "selected text", but they were buggy, because of white
+  spaces, and the VIM mode
 
 **1. Typing `{`**
 

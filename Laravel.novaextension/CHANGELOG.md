@@ -1,51 +1,57 @@
+## v1.8.0
+
+### New Stuff ✨:
+
+- Bumped `tree-sitter-blade` to `v0.10.0`
+- Support for the brand new Laravel `@use` directive
+- Support for `@js`
+
 ## v1.7.0
 
 ### New Stuff ✨:
 
--   Bumps `tree-sitter-blade` to v0.9.2
--   Shell injection for laravel Envoy
+- Bumps `tree-sitter-blade` to v0.9.2
+- Shell injection for laravel Envoy
 
-    <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/Envoy%20Injection.png?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
+  <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/Envoy%20Injection.png?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
 
--   New directives
--   **Envoy**
-    -   `@servers`
-    -   `@import`
-    -   `@task`
-    -   `@story`
-    -   `@setup`
--   **Hooks**
-    -   `@before`
-    -   `@after`
-    -   `@error`
-    -   `@success`
-    -   `@finished`
--   **Notifications**
-    -   `@before`
-    -   `@slack`
-    -   `@discord`
-    -   `@telegram`
-    -   `@microsoftTeams`
+- New directives
+- **Envoy**
+  - `@servers`
+  - `@import`
+  - `@task`
+  - `@story`
+  - `@setup`
+- **Hooks**
+  - `@before`
+  - `@after`
+  - `@error`
+  - `@success`
+  - `@finished`
+- **Notifications**
+  - `@before`
+  - `@slack`
+  - `@discord`
+  - `@telegram`
+  - `@microsoftTeams`
 
 ### Bug Fix 🐞:
 
--   parsing bug #20
+- parsing bug #20
 
 ## v1.6.1
 
 ### Bug Fix 🐞:
 
--   Emmet extension should now work as expected with Blade files! #19
-    🙈
+- Emmet extension should now work as expected with Blade files! #19 🙈
 
 ## v1.6.0
 
 ### New Stuff ✨:
 
--   Temporary replacement support for commenting in Blade, as there is
-    a
-    [conflict internally in Nova, when using injected languages](https://devforum.nova.app/t/comment-shortcut-improvement-in-complex-comment-situations-in-tree-sitter-based-syntax-extension/2220)
--   There are three ways you can comments in blade files.
+- Temporary replacement support for commenting in Blade, as there is a
+  [conflict internally in Nova, when using injected languages](https://devforum.nova.app/t/comment-shortcut-improvement-in-complex-comment-situations-in-tree-sitter-based-syntax-extension/2220)
+- There are three ways you can comments in blade files.
 
 ##### 1. Typing `{`
 
@@ -63,48 +69,48 @@
 
 ### New Stuff ✨:
 
--   Bumps `tree-sitter-blade` to
-    [v0.7.0](https://github.com/EmranMR/tree-sitter-blade/releases/tag/v0.7.0)
--   Full support
-    [Template Inheritance](https://laravel.com/docs/10.x/blade#layouts-using-template-inheritance)
--   `@aware`
--   `@parent`
--   inline `@section`
--   nested `@section` with `@endsection` or `@show` end directive
+- Bumps `tree-sitter-blade` to
+  [v0.7.0](https://github.com/EmranMR/tree-sitter-blade/releases/tag/v0.7.0)
+- Full support
+  [Template Inheritance](https://laravel.com/docs/10.x/blade#layouts-using-template-inheritance)
+- `@aware`
+- `@parent`
+- inline `@section`
+- nested `@section` with `@endsection` or `@show` end directive
 
 ## v1.4.0
 
 ### New Stuff ✨:
 
--   Bumps `tree-sitter-blade` to v0.6.0
--   Added support for `bracket` selectors, allowing the themes to take
-    advantage of. #14
--   Support for Laravel Pennant
-    -   `@feature`
-    -   `@elsefeature`
+- Bumps `tree-sitter-blade` to v0.6.0
+- Added support for `bracket` selectors, allowing the themes to take
+  advantage of. #14
+- Support for Laravel Pennant
+  - `@feature`
+  - `@elsefeature`
 
 ### Bug Fix 🐞:
 
--   Fixed bug #15
+- Fixed bug #15
 
 ## v1.2.0
 
 ### New Features ✨:
 
--   bumped `tree-sitter-blade`🌳 to v0.4.1
--   Support for Authorisation Directives:
-    -   `@can`
-    -   `@canany`
-    -   `@cannot`
-    -   `@elsecan`
-    -   `@elsecannot`
-    -   `@elsecanany`
+- bumped `tree-sitter-blade`🌳 to v0.4.1
+- Support for Authorisation Directives:
+  - `@can`
+  - `@canany`
+  - `@cannot`
+  - `@elsecan`
+  - `@elsecannot`
+  - `@elsecanany`
 
 ## v.1.1.1
 
 ### Bug Fixes: 🐞
 
--   Fixes attribute html injection problems. See #11
+- Fixes attribute html injection problems. See #11
 
 ## v1.1.0
 
@@ -114,58 +120,58 @@
 
 `tree-sitter-blade` and they are as it follows:
 
--   **loops**
-    -   `@for`
-    -   `@foreach`
-    -   `@forelse`
-    -   `@while`
--   **Livewire 🪼**
-    -   `@persist`
-    -   `@teleport`
-    -   `@volt`
+- **loops**
+  - `@for`
+  - `@foreach`
+  - `@forelse`
+  - `@while`
+- **Livewire 🪼**
+  - `@persist`
+  - `@teleport`
+  - `@volt`
 
 #### 2. Syntax Highlighting adjustment
 
--   The attribute directives now match the theme colouring for
-    `tag.attribute.name`
--   For other directives theme selector has been changed to
-    `tag.framework` so that it is semantically correct
+- The attribute directives now match the theme colouring for
+  `tag.attribute.name`
+- For other directives theme selector has been changed to
+  `tag.framework` so that it is semantically correct
 
 ### Bug Fixes: 🐞
 
--   Fixed the issue `@verbatim` adding parameter in completion
--   Remove duplicate `@break` until the issue is fixed in #10
+- Fixed the issue `@verbatim` adding parameter in completion
+- Remove duplicate `@break` until the issue is fixed in #10
 
 ## 📣 1.0.0 🎉
 
 ##### Finally support for `php` **injection** 🥳 as well php autocompletion that is provided by Nova! see below for more info 👇
 
--   This includes
-    -   inside `parameters`, `{{ }}` `@php @endphp` or anywhere else
-        you expect syntax highlighting!
--   The `php` injection would have **NOT** been possible without the
-    work done @CalebDW on the core `tree-sitter-php`🙏 see
-    [tree-sitter-php split_parser pull request draft](https://github.com/tree-sitter/tree-sitter-php/pull/180)
-    -   To get this work, I cloned the `split_parser draft`, then
-        `php-only` subsyntax was created in Nova
-    -   Then all the first party `completions`, `queries` were copied,
-        and adjusted to support the new `php-only` **sub-syntax**
-    -   This is a temporary measure until the pull request is merged,
-        and then adopted by Nova, which might take a long time.
+- This includes
+  - inside `parameters`, `{{ }}` `@php @endphp` or anywhere else you
+    expect syntax highlighting!
+- The `php` injection would have **NOT** been possible without the
+  work done @CalebDW on the core `tree-sitter-php`🙏 see
+  [tree-sitter-php split_parser pull request draft](https://github.com/tree-sitter/tree-sitter-php/pull/180)
+  - To get this work, I cloned the `split_parser draft`, then
+    `php-only` subsyntax was created in Nova
+  - Then all the first party `completions`, `queries` were copied, and
+    adjusted to support the new `php-only` **sub-syntax**
+  - This is a temporary measure until the pull request is merged, and
+    then adopted by Nova, which might take a long time.
 
 <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/php%20injection.gif?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
 
 ##### Other Updates
 
--   Updated the submodules to the latest version
--   Completion file names all adjusted to avoid confusion, prefixed
-    with `php` or `blade`
--   Added adjusted `makeFile` to `tree-sitter-php-only` to allow
-    generation of correct dynamic library for Nova
+- Updated the submodules to the latest version
+- Completion file names all adjusted to avoid confusion, prefixed with
+  `php` or `blade`
+- Added adjusted `makeFile` to `tree-sitter-php-only` to allow
+  generation of correct dynamic library for Nova
 
 ## 0.2.2
 
--   Extension typo fix...
+- Extension typo fix...
 
 ## 0.2.0
 
@@ -173,92 +179,92 @@
 
 ##### bumped the tree-sitter to v0.3.2, which includes:
 
--   a lot of bug fixes,
--   Folding Support
--   Directive support for Livewire including the upcoming v3.0
-    ![folding](https://github-production-user-asset-6210df.s3.amazonaws.com/11975985/254418729-ba36eb66-fee4-4898-b94c-8f503a012122.gif 'folding')
+- a lot of bug fixes,
+- Folding Support
+- Directive support for Livewire including the upcoming v3.0
+  ![folding](https://github-production-user-asset-6210df.s3.amazonaws.com/11975985/254418729-ba36eb66-fee4-4898-b94c-8f503a012122.gif 'folding')
 
 ##### Using Symbolic icons so that completion can be distinguished easier and semantic.
 
--   `@vite` support
--   Completions refactored and categorised to follow their order they
-    appear in tree-sitter grammar as well as following the rule_names
--   Autocompletions:
-    -   **attributes**
-        -   `@class`
-        -   `@style`
-        -   `@checked`
-        -   `@selected`
-        -   `@disabled`
-        -   `@readonly`
-        -   `@required`
-    -   **keywords**
-        -   `@csrf`
-        -   `@viteReactRefresh`
-        -   `@livewireStyles`
-        -   `@livewireScripts`
-        -   `@livewireScriptConfig`
-    -   **inline directives**
-        -   `@extend`
-        -   `@yield`
-        -   `@include`
-        -   `@includeIf`
-        -   `@includeWhen`
-        -   `@includeUnless`
-        -   `@includeFirst`
-        -   `@props`
-        -   `@method`
-        -   `@inject`
-        -   `@each`
-        -   `@vite`
-        -   `@livewire`
-    -   `@Switch`
-        -   `@case`
-        -   `@break`
-        -   `@default`
-    -   **conditionals and if statements**
-        -   `@section`
-        -   `@fragment`
-        -   `@once`
-        -   `@verbatim`
-        -   `@push`
-        -   `@pushOnce`
-        -   `@pushIf`
-        -   `@prepend`
-        -   `@prependOnce`
-        -   `@if`
-        -   `@Unless`
-        -   `@isset`
-        -   `@auth`
-        -   `@guest`
-        -   `@production`
-        -   `@env`
-        -   `@hasSection`
-        -   `@sectionMissing`
-        -   `@error`
-    -   `@php` tags
+- `@vite` support
+- Completions refactored and categorised to follow their order they
+  appear in tree-sitter grammar as well as following the rule_names
+- Autocompletions:
+  - **attributes**
+    - `@class`
+    - `@style`
+    - `@checked`
+    - `@selected`
+    - `@disabled`
+    - `@readonly`
+    - `@required`
+  - **keywords**
+    - `@csrf`
+    - `@viteReactRefresh`
+    - `@livewireStyles`
+    - `@livewireScripts`
+    - `@livewireScriptConfig`
+  - **inline directives**
+    - `@extend`
+    - `@yield`
+    - `@include`
+    - `@includeIf`
+    - `@includeWhen`
+    - `@includeUnless`
+    - `@includeFirst`
+    - `@props`
+    - `@method`
+    - `@inject`
+    - `@each`
+    - `@vite`
+    - `@livewire`
+  - `@Switch`
+    - `@case`
+    - `@break`
+    - `@default`
+  - **conditionals and if statements**
+    - `@section`
+    - `@fragment`
+    - `@once`
+    - `@verbatim`
+    - `@push`
+    - `@pushOnce`
+    - `@pushIf`
+    - `@prepend`
+    - `@prependOnce`
+    - `@if`
+    - `@Unless`
+    - `@isset`
+    - `@auth`
+    - `@guest`
+    - `@production`
+    - `@env`
+    - `@hasSection`
+    - `@sectionMissing`
+    - `@error`
+  - `@php` tags
 
 ##### Adjustment to auto indentation increase/decrease
 
 #### Bug Fix 🐞:
 
--   Issues with context aware completion see #7 resulting with problem
-    completing the attribute directives as well as none relating
-    completion showing in attributes
+- Issues with context aware completion see #7 resulting with problem
+  completing the attribute directives as well as none relating
+  completion showing in attributes
 
 ## 0.1.0
 
--   Support for **code folding** for blade directives
--   bumped the `tree-sitter-blade` to 0.1.2
+- Support for **code folding** for blade directives
+- bumped the `tree-sitter-blade` to 0.1.2
 
 ## Version 0.0.6
 
--   Extension rearrangements for slimming purposes.
--   Streamlining the build process & including the code signing
+- Extension rearrangements for slimming purposes.
+- Streamlining the build process & including the code signing
 
 ## Version 0.0.5
 
--   Initial Release
--   Integration with `tree-sitter-blade`
--   Support for automatic indentation increase and decrease
--   Very basic context aware autocompletion (not complete at all)
+- Initial Release
+- Integration with `tree-sitter-blade`
+- Support for automatic indentation increase and decrease
+- Very basic context aware autocompletion (not complete at all)

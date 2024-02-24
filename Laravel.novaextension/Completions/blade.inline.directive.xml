@@ -25,5 +25,7 @@
         <completion string="@discord"/>
         <completion string="@telegram"/>
         <completion string="@microsoftTeams"/>
+        <completion string="@use"/>
+        <completion string="@js"/>
     </set>
 </completions>
