@@ -1,3 +1,11 @@
+## v1.9.0
+
+### New Stuff ✨:
+
+- Bumped `tree-sitter-blade` to `v0.11.0`
+- Support for Inertia `@inertia` and `@inertiahead`
+- Support for Ziggy `@routes`
+
 ## v1.8.0
 
 ### New Stuff ✨:
