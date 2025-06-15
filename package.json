@@ -4,17 +4,16 @@
   "description": "Laravel Extension for Nova editor by panic. Providing syntax highlightin, folding and injection  support using tree-sitter-blade plus autocompletiton, snippets and many more features in the future...",
   "main": "index.js",
   "workspaces": [
-    "tree-sitter-blade",
-    "tree-sitter-php"
+    "tree-sitter-blade"
   ],
   "scripts": {
     "test": "npm run test -w tree-sitter-blade",
     "prebuild": "npm run build -w tree-sitter-blade",
-    "build": "./TreeSitterParserBuild/compile_parser.sh ${PWD}/tree-sitter-blade /Applications/Nova.app/ && ./TreeSitterParserBuild/compile_parser.sh ${PWD}/tree-sitter-php/tree-sitter-php-only /Applications/Nova.app/ ",
+    "build": "./TreeSitterParserBuild/compile_parser.sh ${PWD}/tree-sitter-blade /Applications/Nova.app/",
     "postbuild": "npm run move && npm run clean && npm run sign",
     "move": "mv ./build/lib/*.dylib ./Laravel.novaextension/Syntaxes/",
-    "clean": "rm -rf ./build ./tree-sitter-blade/*.dylib ./tree-sitter-blade/*.o ./tree-sitter-blade/build ./tree-sitter-php/tree-sitter-php-only/*.dylib ./tree-sitter-php/tree-sitter-php-only/src/*.o",
-    "sign": "codesign -s - ./Laravel.novaextension/Syntaxes/libtree-sitter-blade.dylib && codesign -s - ./Laravel.novaextension/Syntaxes/libtree-sitter-php_only.dylib"
+    "clean": "rm -rf ./build ./tree-sitter-blade/*.dylib ./tree-sitter-blade/*.o ./tree-sitter-blade/build",
+    "sign": "codesign -s - ./Laravel.novaextension/Syntaxes/libtree-sitter-blade.dylib"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,7 @@
 {{-- <div>{{echo "test"}</div> --}}
 {{-- Example from https://github.com/EmranMR/tree-sitter-blade/issues/40 --}}
 {{-- Debug purposes --}}
+{{echo 'test'}}
 <nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

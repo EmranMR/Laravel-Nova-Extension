@@ -10,7 +10,7 @@
 
 
 ((php_only) @injection.content
-    (#set! injection.language php_only))
+    (#set! injection.language php_embedded))
 ((parameter) @injection.content
-    (#set! injection.language php_only))
+    (#set! injection.language php_embedded))
 
