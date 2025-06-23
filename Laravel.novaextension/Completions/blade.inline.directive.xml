@@ -1,31 +1,34 @@
 <completions>
-    <set name="blade.inline.directive" symbol="function" case-insensitive="true">
+    <set
+    name="blade.inline.directive"
+    symbol="function"
+    case-insensitive="true">
         <behavior prefix="@">
-            <append>($[])</append>
+            <append>()</append>
         </behavior>
-        <completion string="@extends"/>
-        <completion string="@yield"/>
-        <completion string="@include"/>
-        <completion string="@includeIf"/>
-        <completion string="@includeWhen"/>
-        <completion string="@includeUnless"/>
-        <completion string="@includeFirst"/>
-        <completion string="@props"/>
-        <completion string="@method"/>
-        <completion string="@inject"/>
-        <completion string="@each"/>
-        <completion string="@vite"/>
-        <completion string="@livewire"/>
-        <completion string="@aware"/>
-        <completion string="@section"/>
+        <completion string="@extends" />
+        <completion string="@yield" />
+        <completion string="@include" />
+        <completion string="@includeIf" />
+        <completion string="@includeWhen" />
+        <completion string="@includeUnless" />
+        <completion string="@includeFirst" />
+        <completion string="@props" />
+        <completion string="@method" />
+        <completion string="@inject" />
+        <completion string="@each" />
+        <completion string="@vite" />
+        <completion string="@livewire" />
+        <completion string="@aware" />
+        <completion string="@section" />
         <!-- !envoy -->
-        <completion string="@servers"/>
-        <completion string="@import"/>
-        <completion string="@slack"/>
-        <completion string="@discord"/>
-        <completion string="@telegram"/>
-        <completion string="@microsoftTeams"/>
-        <completion string="@use"/>
-        <completion string="@js"/>
+        <completion string="@servers" />
+        <completion string="@import" />
+        <completion string="@slack" />
+        <completion string="@discord" />
+        <completion string="@telegram" />
+        <completion string="@microsoftTeams" />
+        <completion string="@use" />
+        <completion string="@js" />
     </set>
 </completions>

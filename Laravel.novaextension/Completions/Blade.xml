@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0" encoding="UTF-8" ?>
 <completions name="Blade">
     <!-- !General/Universal completion set -->
     <provider name="blade.general">
-        <syntax>Blade</syntax>
-        <syntax>html</syntax>
+        <syntax>blade</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <trigger>@</trigger>
         <exclude-selector>comment, attribute</exclude-selector>
@@ -13,9 +11,9 @@
         <set>blade.keywords</set>
         <set>blade.nested.directive</set>
     </provider>
+
     <provider name="blade.general">
-        <syntax>Blade</syntax>
-        <syntax>html</syntax>
+        <syntax>blade</syntax>
         <expression>\{</expression>
         <trigger>{</trigger>
         <exclude-selector>comment, attribute</exclude-selector>
@@ -23,8 +21,7 @@
     </provider>
     <!-- ! attributes.xml -->
     <provider name="blade.attributes">
-        <syntax>Blade</syntax>
-        <syntax>html</syntax>
+        <syntax>blade</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <trigger>@</trigger>
         <query>
@@ -34,8 +31,7 @@
     </provider>
     <!-- !conditional keywords -->
     <provider name="blade.conditional.keywords">
-        <syntax>Blade</syntax>
-        <syntax>html</syntax>
+        <syntax>blade</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <exclude-selector>comment, attribute</exclude-selector>
         <trigger>@</trigger>
@@ -46,8 +42,7 @@
     </provider>
     <!-- !switch keywords -->
     <provider name="blade.switch.keywords">
-        <syntax>Blade</syntax>
-        <syntax>html</syntax>
+        <syntax>blade</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <exclude-selector>comment, attribute</exclude-selector>
         <trigger>@</trigger>
@@ -58,8 +53,7 @@
     </provider>
     <!-- !loop keywords/operators -->
     <provider name="blade.loop.keywords">
-        <syntax>Blade</syntax>
-        <syntax>html</syntax>
+        <syntax>blade</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <exclude-selector>comment, attribute</exclude-selector>
         <trigger>@</trigger>
@@ -70,8 +64,7 @@
     </provider>
     <!-- !authorization keywords-->
     <provider name="blade.loop.keywords">
-        <syntax>Blade</syntax>
-        <syntax>html</syntax>
+        <syntax>blade</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <exclude-selector>comment, attribute</exclude-selector>
         <trigger>@</trigger>
@@ -82,8 +75,7 @@
     </provider>
     <!-- !Pennant keywords-->
     <provider name="blade.pennant.keywords">
-        <syntax>Blade</syntax>
-        <syntax>html</syntax>
+        <syntax>blade</syntax>
         <expression>@[a-zA-Z0-9-]*</expression>
         <exclude-selector>comment, attribute</exclude-selector>
         <trigger>@</trigger>
