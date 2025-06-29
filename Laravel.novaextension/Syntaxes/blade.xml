@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <syntax name="blade">
     <meta>
         <name>Blade</name>
@@ -38,9 +38,11 @@
     </injection>
 
     <tree-sitter language="blade">
-        <injections/>
-        <highlights path="highlights.scm" />
-        <folds path="folds.scm" />
-        <symbols path="symbols.scm" />
+        <highlights />
+        <injections />
+        <folds />
+        <symbols />
+        <text-checking />
+        <tag-matching />
     </tree-sitter>
 </syntax>

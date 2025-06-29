@@ -8,7 +8,7 @@
 (erroneous_end_tag_name) @invalid
 (doctype) @declaration
 
- ; Attri; Attribute names and values
+ ; Attribute names and values
 ((attribute
     (_
         (attribute_name) @tag.attribute.name
