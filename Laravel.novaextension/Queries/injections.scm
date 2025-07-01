@@ -10,7 +10,7 @@
     ((text) @injection.content
         (#has-ancestor? @injection.content "envoy")
         (#set! injection.combined)
-        (#set! injection.language bash))
+        (#set! injection.language "bash"))
 ; -----------------------------------------
 
 
@@ -24,7 +24,7 @@
 
 ; ; Livewire attributes
 ((attribute_name) @_attr
-    (#any-of? @_attr
+    (#contains? @_attr
       "wire:click"
       "wire:submit"
       "wire:model"
@@ -70,12 +70,13 @@
   (_
     (tag_name) @_tag
       (#match? @_tag "[^x][^-]")
-    (attribute_name) @_attr
-      (#match? @_attr "^:[a-z]+")
-    (quoted_attribute_value
-      (attribute_value) @injection.content)
-    (#set! injection.combined)
-    (#set! injection.language "javascript")))
+    (attribute
+      (attribute_name) @_attr
+        (#match? @_attr "^:[a-z]+")
+      (quoted_attribute_value
+        (attribute_value) @injection.content)
+      (#set! injection.combined)
+      (#set! injection.language "javascript"))))
 
 ; ; ; Blade escaped JS attributes
 ; ; <x-foo ::bar="baz" />
@@ -83,11 +84,12 @@
   (_
     (tag_name) @_tag
       (#match? @_tag "^x-[a-z]+")
-    (attribute_name) @_attr
-      (#match? @_attr "^::[a-z]+")
-    (quoted_attribute_value
-      (attribute_value) @injection.content)
-    (#set! injection.language "javascript")))
+    (attribute
+      (attribute_name) @_attr
+        (#match? @_attr "^::[a-z]+")
+      (quoted_attribute_value
+        (attribute_value) @injection.content)
+      (#set! injection.language "javascript"))))
 
 ; ; ; Blade escaped JS attributes
 ; ; <htmlTag :class="baz" />
@@ -105,11 +107,12 @@
   (_
     (tag_name) @_tag
       (#match? @_tag "^x-[a-z]+")
+    (attribute
       (attribute_name) @_attr
         (#match? @_attr "^:[a-z]+")
       (quoted_attribute_value
         (attribute_value) @injection.content)
-      (#set! injection.language "php_embedded")))
+      (#set! injection.language "php_embedded"))))
 
 
 ; from tree-sitter-html
