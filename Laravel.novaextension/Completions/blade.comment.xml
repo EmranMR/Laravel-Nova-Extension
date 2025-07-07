@@ -1,9 +1,0 @@
-<completions>
-    <set name="blade.comment">
-        <completion string="{{--" symbol="comment">
-            <behavior>
-                <append>$[comment] --}}</append>
-            </behavior>
-        </completion>
-    </set>
-</completions>
