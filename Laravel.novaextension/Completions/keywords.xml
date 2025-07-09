@@ -1,37 +1,38 @@
 <completions>
     <!-- !keyword -->
     <set name="blade.keywords" symbol="constant" case-insensitive="true">
-        <completion string="@csrf"/>
-        <completion string="@parent"/>
-        <completion string="@viteReactRefresh"/>
-        <completion string="@inertia"/>
-        <completion string="@inertiaHead"/>
-        <completion string="@routes"/>
-        <completion string="@livewireStyles"/>
-        <completion string="@livewireScripts"/>
-        <completion string="@livewireScriptConfig"/>
+        <completion string="@csrf" />
+        <completion string="@svg" />
+        <completion string="@parent" />
+        <completion string="@viteReactRefresh" />
+        <completion string="@inertia" />
+        <completion string="@inertiaHead" />
+        <completion string="@routes" />
+        <completion string="@livewireStyles" />
+        <completion string="@livewireScripts" />
+        <completion string="@livewireScriptConfig" />
     </set>
     <!-- !loop_operator -->
-    <set name="blade.loop.keywords"  case-insensitive="true">
-        <completion symbol="constant" string="@break"/>
-        <completion symbol="constant" string="@continue"/>
+    <set name="blade.loop.keywords" case-insensitive="true">
+        <completion symbol="constant" string="@break" />
+        <completion symbol="constant" string="@continue" />
         <completion symbol="function" string="@continue">
             <behavior>
-                <append>($[])</append>
+                <append>()</append>
             </behavior>
         </completion>
         <completion symbol="function" string="@break">
             <behavior>
-                <append>($[])</append>
+                <append>()</append>
             </behavior>
         </completion>
     </set>
     <!-- !conditional_keyword -->
     <set name="blade.conditional.keywords">
-        <completion symbol="constant" string="@else"/>
+        <completion symbol="constant" string="@else" />
         <completion symbol="function" string="@elseif">
             <behavior prefix="@">
-                <append>($[])</append>
+                <append>()</append>
             </behavior>
         </completion>
     </set>
@@ -40,10 +41,10 @@
     <set name="blade.switch.keywords">
         <!-- uncomment once the <query> bug is fixed by panic -->
         <!-- <completion symbol="constant" string="@break"/> -->
-        <completion symbol="constant" string="@default"/>
+        <completion symbol="constant" string="@default" />
         <completion symbol="function" string="@case">
             <behavior prefix="@">
-                <append>($[])</append>
+                <append>()</append>
             </behavior>
         </completion>
     </set>
@@ -51,18 +52,18 @@
     <!-- !authorization keywords -->
     <set name="blade.authorization.keywords">
         <behavior prefix="@">
-            <append>($[])</append>
+            <append>()</append>
         </behavior>
-        <completion symbol="function" string="@elsecan"/>
-        <completion symbol="function" string="@elsecannot"/>
-        <completion symbol="function" string="@elsecanany"/>
+        <completion symbol="function" string="@elsecan" />
+        <completion symbol="function" string="@elsecannot" />
+        <completion symbol="function" string="@elsecanany" />
     </set>
     <!-- !pennant keywords -->
     <set name="blade.pennant.keywords">
         <behavior prefix="@">
-            <append>($[])</append>
+            <append>()</append>
         </behavior>
-        <completion symbol="function" string="@elsefeature"/>
+        <completion symbol="function" string="@elsefeature" />
     </set>
 
 </completions>

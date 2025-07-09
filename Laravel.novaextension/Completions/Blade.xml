@@ -14,7 +14,7 @@
     <!-- ! attributes.xml -->
     <provider name="blade.attributes">
         <syntax>blade</syntax>
-        <expression>@[a-zA-Z0-9-]*</expression>
+        <expression>(@|w)[a-zA-Z0-9-]*</expression>
         <trigger>@</trigger>
         <query>
             (attribute)

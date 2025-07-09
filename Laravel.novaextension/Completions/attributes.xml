@@ -1,14 +1,40 @@
 <completions>
     <set name="blade.attributes" symbol="property">
-        <behavior prefix="@">
+        <behavior>
             <append>($[])</append>
         </behavior>
-    <completion string="@class"/>
-    <completion string="@style"/>
-    <completion string="@checked"/>
-    <completion string="@selected"/>
-    <completion string="@disabled"/>
-    <completion string="@readonly"/>
-    <completion string="@required"/>
+    <completion string="@class" />
+    <completion string="@style" />
+    <completion string="@checked" />
+    <completion string="@selected" />
+    <completion string="@disabled" />
+    <completion string="@readonly" />
+    <completion string="@required" />
     </set>
+
+    <set name="blade.livewire" symbol="property">
+        <behavior>
+            <append>="$[]"</append>
+        </behavior>
+    <completion string="wire:click" />
+    <completion string="wire:submit" />
+    <completion string="wire:model" />
+    <completion string="wire:loading" />
+    <completion string="wire:navigate" />
+    <completion string="wire:current" />
+    <completion string="wire:cloak" />
+    <completion string="wire:dirty" />
+    <completion string="wire:confirm" />
+    <completion string="wire:transition" />
+    <completion string="wire:init" />
+    <completion string="wire:poll" />
+    <completion string="wire:offline" />
+    <completion string="wire:ignore" />
+    <completion string="wire:replace" />
+    <completion string="wire:show" />
+    <completion string="wire:stream" />
+    <completion string="wire:text" />
+    </set>
+
+
 </completions>
