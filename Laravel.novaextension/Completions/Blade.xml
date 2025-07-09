@@ -20,6 +20,7 @@
             (attribute)
         </query>
         <set>blade.attributes</set>
+        <set>blade.livewire</set>
     </provider>
     <!-- !conditional keywords -->
     <provider name="blade.conditional.keywords">
