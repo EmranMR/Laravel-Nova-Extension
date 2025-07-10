@@ -1,24 +1,30 @@
-## v2.0.0
-This major release takes care of many of the bugs and shorcomings due to the way the blade files were parsed!
+## v2.0.0 🚀
+
+This major release takes care of many of the bugs and shorcomings due to the way
+the blade files were parsed!
 
 ### New Stuff ✨:
-- Bumped the tree-sitter-blade to the very latest, which was written from ground up to fix the shortcommings!
+
+- Bumped the tree-sitter-blade to the very latest, which was written from ground
+  up to fix the shortcommings!
 - The parser is now 5x faster
-- The comments now work as expected with your code editor global shortcut. **NO** for workarounds
-- The `Javascript` is now injected in the appropiate attribute thanks to the tree-sitter-blade
-   - AlpineJS
-   - Livewire
+- The comments now work as expected with your code editor global shortcut.
+  **NO** for workarounds
+- The `Javascript` is now injected in the appropiate attribute thanks to the
+  tree-sitter-blade
+  - AlpineJS
+  - Livewire
 - The nested components are now correctly highlighted such as `<x-foo.bar ...`
-- Better and more accurate syntax highlighting, in fact better than the internal HTML!
+- Better and more accurate syntax highlighting, in fact better than the internal
+  HTML!
 - Livewire Completions
 - Improved syntax aware completion, based on where the code is located now!
-- Better and improved semantic tree structure, allowing you to find bugs in your code faster.
+- Better and improved semantic tree structure, allowing you to find bugs in your
+  code faster.
 - Support for `@svg`
 - Fixed a bug relating to some parameter structures.
 - Indentation should work as expected now!
-
-
-
+- The parser is now using the ABI 15
 
 ## v1.9.0
 
@@ -113,8 +119,8 @@ This major release takes care of many of the bugs and shorcomings due to the way
 ### New Stuff ✨:
 
 - Bumps `tree-sitter-blade` to v0.6.0
-- Added support for `bracket` selectors, allowing the themes to take
-  advantage of. #14
+- Added support for `bracket` selectors, allowing the themes to take advantage
+  of. #14
 - Support for Laravel Pennant
   - `@feature`
   - `@elsefeature`
@@ -164,8 +170,8 @@ This major release takes care of many of the bugs and shorcomings due to the way
 
 - The attribute directives now match the theme colouring for
   `tag.attribute.name`
-- For other directives theme selector has been changed to
-  `tag.framework` so that it is semantically correct
+- For other directives theme selector has been changed to `tag.framework` so
+  that it is semantically correct
 
 ### Bug Fixes: 🐞
 
@@ -177,27 +183,27 @@ This major release takes care of many of the bugs and shorcomings due to the way
 ##### Finally support for `php` **injection** 🥳 as well php autocompletion that is provided by Nova! see below for more info 👇
 
 - This includes
-  - inside `parameters`, `{{ }}` `@php @endphp` or anywhere else you
-    expect syntax highlighting!
-- The `php` injection would have **NOT** been possible without the
-  work done @CalebDW on the core `tree-sitter-php`🙏 see
+  - inside `parameters`, `{{ }}` `@php @endphp` or anywhere else you expect
+    syntax highlighting!
+- The `php` injection would have **NOT** been possible without the work done
+  @CalebDW on the core `tree-sitter-php`🙏 see
   [tree-sitter-php split_parser pull request draft](https://github.com/tree-sitter/tree-sitter-php/pull/180)
-  - To get this work, I cloned the `split_parser draft`, then
-    `php-only` subsyntax was created in Nova
-  - Then all the first party `completions`, `queries` were copied, and
-    adjusted to support the new `php-only` **sub-syntax**
-  - This is a temporary measure until the pull request is merged, and
-    then adopted by Nova, which might take a long time.
+  - To get this work, I cloned the `split_parser draft`, then `php-only`
+    subsyntax was created in Nova
+  - Then all the first party `completions`, `queries` were copied, and adjusted
+    to support the new `php-only` **sub-syntax**
+  - This is a temporary measure until the pull request is merged, and then
+    adopted by Nova, which might take a long time.
 
 <img src="https://github.com/EmranMR/Laravel-Nova-Extension/blob/main/Images/php%20injection.gif?raw=true" width="60%" style="border-radius: 2%" alt="php injection" title="php injection" />
 
 ##### Other Updates
 
 - Updated the submodules to the latest version
-- Completion file names all adjusted to avoid confusion, prefixed with
-  `php` or `blade`
-- Added adjusted `makeFile` to `tree-sitter-php-only` to allow
-  generation of correct dynamic library for Nova
+- Completion file names all adjusted to avoid confusion, prefixed with `php` or
+  `blade`
+- Added adjusted `makeFile` to `tree-sitter-php-only` to allow generation of
+  correct dynamic library for Nova
 
 ## 0.2.2
 
@@ -217,8 +223,8 @@ This major release takes care of many of the bugs and shorcomings due to the way
 ##### Using Symbolic icons so that completion can be distinguished easier and semantic.
 
 - `@vite` support
-- Completions refactored and categorised to follow their order they
-  appear in tree-sitter grammar as well as following the rule_names
+- Completions refactored and categorised to follow their order they appear in
+  tree-sitter grammar as well as following the rule_names
 - Autocompletions:
   - **attributes**
     - `@class`
@@ -278,9 +284,9 @@ This major release takes care of many of the bugs and shorcomings due to the way
 
 #### Bug Fix 🐞:
 
-- Issues with context aware completion see #7 resulting with problem
-  completing the attribute directives as well as none relating
-  completion showing in attributes
+- Issues with context aware completion see #7 resulting with problem completing
+  the attribute directives as well as none relating completion showing in
+  attributes
 
 ## 0.1.0
 
