@@ -4,7 +4,7 @@
     symbol="function"
     case-insensitive="true">
         <behavior prefix="@">
-            <append>()</append>
+            <append>($[])</append>
         </behavior>
         <completion string="@extends" />
         <completion string="@yield" />

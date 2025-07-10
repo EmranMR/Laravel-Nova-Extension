@@ -1,3 +1,25 @@
+## v2.0.0
+This major release takes care of many of the bugs and shorcomings due to the way the blade files were parsed!
+
+### New Stuff ✨:
+- Bumped the tree-sitter-blade to the very latest, which was written from ground up to fix the shortcommings!
+- The parser is now 5x faster
+- The comments now work as expected with your code editor global shortcut. **NO** for workarounds
+- The `Javascript` is now injected in the appropiate attribute thanks to the tree-sitter-blade
+   - AlpineJS
+   - Livewire
+- The nested components are now correctly highlighted such as `<x-foo.bar ...`
+- Better and more accurate syntax highlighting, in fact better than the internal HTML!
+- Livewire Completions
+- Improved syntax aware completion, based on where the code is located now!
+- Better and improved semantic tree structure, allowing you to find bugs in your code faster.
+- Support for `@svg`
+- Fixed a bug relating to some parameter structures.
+- Indentation should work as expected now!
+
+
+
+
 ## v1.9.0
 
 ### New Stuff ✨:
