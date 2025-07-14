@@ -1,3 +1,9 @@
+## v2.1.0 🚀
+
+### Bug Fix 🐞:
+
+- Support for ARM architecture
+
 ## v2.0.0 🚀
 
 This major release takes care of many of the bugs and shorcomings due to the way
