@@ -1,3 +1,9 @@
+## v2.1.1 🚀
+
+### Bug Fix 🐞:
+
+- HTML Theme selector improvement in highlights.scm
+
 ## v2.1.0 🚀
 
 ### Bug Fix 🐞:
@@ -224,7 +230,7 @@ the blade files were parsed!
 - a lot of bug fixes,
 - Folding Support
 - Directive support for Livewire including the upcoming v3.0
-  ![folding](https://github-production-user-asset-6210df.s3.amazonaws.com/11975985/254418729-ba36eb66-fee4-4898-b94c-8f503a012122.gif 'folding')
+  ![folding](https://github-production-user-asset-6210df.s3.amazonaws.com/11975985/254418729-ba36eb66-fee4-4898-b94c-8f503a012122.gif "folding")
 
 ##### Using Symbolic icons so that completion can be distinguished easier and semantic.
 
