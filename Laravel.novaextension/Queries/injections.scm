@@ -22,8 +22,11 @@
     (#set! injection.language "php_embedded"))
 
 
+
+
 ; ; Livewire attributes
-((attribute_name) @_attr
+(attribute
+  (attribute_name) @_attr
     (#contains? @_attr
       "wire:click"
       "wire:submit"
@@ -50,7 +53,8 @@
 
 ; ; See #33
 ; ; AlpineJS attributes
-((attribute_name) @_attr
+(attribute
+  (attribute_name) @_attr
     (#match? @_attr "^x-[a-z]+")
   (quoted_attribute_value
     (attribute_value) @injection.content)
@@ -58,7 +62,8 @@
   (#set! injection.language "javascript"))
 
 ; ; Apline Events
-((attribute_name) @_attr
+(attribute
+  (attribute_name) @_attr
     (#match? @_attr "^@[a-z]+")
   (quoted_attribute_value
     (attribute_value) @injection.content)
