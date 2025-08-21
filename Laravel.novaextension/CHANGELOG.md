@@ -1,5 +1,9 @@
 ## v2.1.2
 
+- Updated the `min_runtime` Nova Version to 13.2
+
+## v2.1.2
+
 - Updated the `README` regarding syntax highlighting bug fix
 
 ## v2.1.1 🚀

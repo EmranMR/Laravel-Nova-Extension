@@ -9,26 +9,6 @@
 > installed, you need to **uninstall or disable**. Otherwise this extension
 > won't work as expected
 
-There is a bug 🐞 in Nova 13+ for embedded PHP. It has been reported already but
-feel free to report as well.
-
-You are required to do the following to resolve the issue breaking syntax
-highlighting
-
-**move the following block**
-
-```
-; Shebang
-((program . (text) @_text @processing.shebang)
-  (#match? @_text "^#!")
-)
-```
-
-**FROM**
-`/Applications/Nova.app/Contents/SharedSupport/Extensions/PHP.novaextension/Queries/highlights.scm`
-**TO**
-`/Applications/Nova.app/Contents/SharedSupport/Extensions/PHP.novaextension/Queries/highlights-tags.scm`
-
 ## Sponsorship ❤️
 
 If [this project](https://github.com/EmranMR/Laravel-Nova-Extension/) &
