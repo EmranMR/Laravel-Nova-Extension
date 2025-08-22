@@ -1,3 +1,8 @@
+; Tags
+
+(php_tag) @tag.framework
+(php_end_tag) @tag.framework
+
 (directive) @tag.framework
 (directive_start) @tag.framework
 (directive_end) @tag.framework

@@ -11,6 +11,7 @@
         <completion string="@livewireStyles" />
         <completion string="@livewireScripts" />
         <completion string="@livewireScriptConfig" />
+        <completion string="@wireUiScripts" />
     </set>
     <!-- !loop_operator -->
     <set name="blade.loop.keywords" case-insensitive="true">

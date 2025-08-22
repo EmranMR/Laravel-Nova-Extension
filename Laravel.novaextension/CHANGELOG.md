@@ -1,4 +1,13 @@
-## v2.1.2
+## v2.2.0
+
+- Fixed bug relating to multi-cursor placement when providing nested directive
+  completions
+- `@session`, `@wireUiScript`, `@context`, `@script`, `@assets`
+- Bumped `tree-sitter-blade` to fix nested conditionals inside loops syntax
+  highlighting
+- Added highlighting support for `<?php` `?>`
+
+## v2.1.3
 
 - Updated the `min_runtime` Nova Version to 13.2
 

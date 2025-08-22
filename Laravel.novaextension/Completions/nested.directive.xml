@@ -3,30 +3,30 @@
         <!-- !section -->
         <completion string="@section" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endsection</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endsection</append>
             </behavior>
         </completion>
         <completion string="@section" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@show</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@show</append>
             </behavior>
         </completion>
         <!-- !fragment -->
         <completion string="@fragment" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endfragment</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endfragment</append>
             </behavior>
         </completion>
         <!-- !once -->
         <completion string="@once" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@endonce</append>
+                <append>&#10;&#9;$[body]&#10;@endonce</append>
             </behavior>
         </completion>
         <!-- !verbatim -->
         <completion string="@verbatim" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@endverbatim</append>
+                <append>&#10;&#9;$[body]&#10;@endverbatim</append>
             </behavior>
         </completion>
 
@@ -34,31 +34,31 @@
         <!-- !push -->
         <completion string="@push" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endpush</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endpush</append>
             </behavior>
         </completion>
         <!-- !pushOnce -->
         <completion string="@pushOnce" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endPushOnce</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endPushOnce</append>
             </behavior>
         </completion>
         <!-- !pushIf -->
         <completion string="@pushIf" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endPushIf</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endPushIf</append>
             </behavior>
         </completion>
         <!-- !prepend -->
         <completion string="@prepend" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endprepend</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endprepend</append>
             </behavior>
         </completion>
             <!-- !prependOnce -->
         <completion string="@prependOnce" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endPrependOnce</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endPrependOnce</append>
             </behavior>
         </completion>
 
@@ -66,104 +66,116 @@
         <!-- !if -->
         <completion string="@if" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endif</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endif</append>
+            </behavior>
+        </completion>
+        <!-- !session -->
+        <completion string="@session" symbol="block">
+            <behavior>
+                <append>($[param])&#10;&#9;$[body]&#10;@endsession</append>
+            </behavior>
+        </completion>
+        <!-- !context -->
+        <completion string="@context" symbol="block">
+            <behavior>
+                <append>($[param])&#10;&#9;$[body]&#10;@endcontext</append>
             </behavior>
         </completion>
         <!-- !unless -->
         <completion string="@unless" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endunless</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endunless</append>
             </behavior>
         </completion>
         <!-- !isset -->
         <completion string="@isset" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endisset</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endisset</append>
             </behavior>
         </completion>
         <!-- !empty -->
         <completion string="@empty" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endempty</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endempty</append>
             </behavior>
         </completion>
         <!-- !auth with parameter-->
         <completion string="@auth" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endauth</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endauth</append>
             </behavior>
         </completion>
         <!-- !auth -->
         <completion string="@auth" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@endauth</append>
+                <append>&#10;&#9;$[body]&#10;@endauth</append>
             </behavior>
         </completion>
         <!-- !guest with parameter -->
         <completion string="@guest" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endguest</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endguest</append>
             </behavior>
         </completion>
         <!-- !guest -->
         <completion string="@guest" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@endguest</append>
+                <append>&#10;&#9;$[body]&#10;@endguest</append>
             </behavior>
         </completion>
         <!-- !production -->
         <completion string="@production" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@endproduction</append>
+                <append>&#10;&#9;$[body]&#10;@endproduction</append>
             </behavior>
         </completion>
         <!-- !env -->
         <completion string="@env" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endenv</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endenv</append>
             </behavior>
         </completion>
         <!-- !hasSection -->
         <completion string="@hasSection" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endif</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endif</append>
             </behavior>
         </completion>
         <!-- !sectionMissing -->
         <completion string="@sectionMissing" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endif</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endif</append>
             </behavior>
         </completion>
         <!-- !error -->
         <completion string="@error" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@enderror</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@enderror</append>
             </behavior>
         </completion>
         <!-- !Authorization -->
         <!-- !can -->
         <completion string="@can" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endcan</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endcan</append>
             </behavior>
         </completion>
         <!-- !cannot -->
         <completion string="@cannot" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endcannot</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endcannot</append>
             </behavior>
         </completion>
         <!-- !canany -->
         <completion string="@canany" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endcanany</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endcanany</append>
             </behavior>
         </completion>
         <!-- !switch -->
         <completion string="@switch" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;@case($[])&#10;&#9;&#9;$[]&#10;&#9;&#9;@break&#10;@endswitch</append>
+                <append>($[param])&#10;&#9;@case($[param])&#10;&#9;&#9;$[body]&#10;&#9;&#9;@break&#10;@endswitch</append>
             </behavior>
         </completion>
 
@@ -171,45 +183,57 @@
         <!-- !for -->
         <completion string="@for" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endfor</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endfor</append>
             </behavior>
         </completion>
         <!-- !foreach -->
         <completion string="@foreach" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endforeach</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endforeach</append>
             </behavior>
         </completion>
         <!-- !forelse -->
         <completion string="@forelse" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endforelse</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endforelse</append>
             </behavior>
         </completion>
         <!-- !while -->
         <completion string="@while" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endwhile</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endwhile</append>
             </behavior>
         </completion>
 
         <!-- !livewire 🪼 -->
+        <!-- !script -->
+        <completion string="@script" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@endscript</append>
+            </behavior>
+        </completion>
+        <!-- !assets -->
+        <completion string="@assets" symbol="block">
+            <behavior>
+                <append>&#10;&#9;$[]&#10;@endassets</append>
+            </behavior>
+        </completion>
         <!-- !persist -->
         <completion string="@persist" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endpersist</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endpersist</append>
             </behavior>
         </completion>
         <!-- !teleport -->
         <completion string="@teleport" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endteleport</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endteleport</append>
             </behavior>
         </completion>
         <!-- !volt -->
         <completion string="@volt" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endvolt</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endvolt</append>
             </behavior>
         </completion>
 
@@ -217,7 +241,7 @@
         <!-- !feature -->
         <completion string="@feature" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endfeature</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endfeature</append>
             </behavior>
         </completion>
 
@@ -225,49 +249,49 @@
         <!-- !task -->
         <completion string="@task" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endtask</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endtask</append>
             </behavior>
         </completion>
         <!-- !story -->
         <completion string="@story" symbol="block">
             <behavior>
-                <append>($[])&#10;&#9;$[]&#10;@endstory</append>
+                <append>($[param])&#10;&#9;$[body]&#10;@endstory</append>
             </behavior>
         </completion>
        <!-- !setup -->
         <completion string="@setup" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@endsetup</append>
+                <append>&#10;&#9;$[body]&#10;@endsetup</append>
             </behavior>
         </completion>
        <!-- !before -->
         <completion string="@before" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@endbefore</append>
+                <append>&#10;&#9;$[body]&#10;@endbefore</append>
             </behavior>
         </completion>
        <!-- !after -->
         <completion string="@after" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@endafter</append>
+                <append>&#10;&#9;$[body]&#10;@endafter</append>
             </behavior>
         </completion>
        <!-- !error -->
         <completion string="@error" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@enderror</append>
+                <append>&#10;&#9;$[body]&#10;@enderror</append>
             </behavior>
         </completion>
        <!-- !success -->
         <completion string="@success" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@endsuccess</append>
+                <append>&#10;&#9;$[body]&#10;@endsuccess</append>
             </behavior>
         </completion>
        <!-- !finished -->
         <completion string="@finished" symbol="block">
             <behavior>
-                <append>&#10;&#9;$[]&#10;@endfinished</append>
+                <append>&#10;&#9;$[body]&#10;@endfinished</append>
             </behavior>
         </completion>
     </set>

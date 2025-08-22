@@ -30,5 +30,6 @@
         <completion string="@microsoftTeams" />
         <completion string="@use" />
         <completion string="@js" />
+        <completion string="@wireUiScripts" />
     </set>
 </completions>
