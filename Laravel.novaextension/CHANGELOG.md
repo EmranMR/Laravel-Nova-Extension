@@ -1,3 +1,10 @@
+## v2.2.1
+
+- bumped tree-sitter-blade to kill few pesky parsing bugs
+- see
+  [tree-sitter-blade v0.12.2](https://github.com/EmranMR/tree-sitter-blade/releases/tag/v0.12.2)
+  for more info
+
 ## v2.2.0
 
 - Fixed bug relating to multi-cursor placement when providing nested directive
