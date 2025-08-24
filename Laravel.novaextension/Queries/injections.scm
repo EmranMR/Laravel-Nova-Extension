@@ -49,6 +49,7 @@
     )
   (quoted_attribute_value
     (attribute_value) @injection.content)
+  (#set! injection.combined)
   (#set! injection.language "javascript"))
 
 ; ; See #33
@@ -94,6 +95,7 @@
         (#match? @_attr "^::[a-z]+")
       (quoted_attribute_value
         (attribute_value) @injection.content)
+      (#set! injection.combined)
       (#set! injection.language "javascript"))))
 
 ; ; ; Blade escaped JS attributes
@@ -104,6 +106,7 @@
       (#match? @_attr "^:[a-z]+")
     (quoted_attribute_value
       (attribute_value) @injection.content)
+    (#set! injection.combined)
     (#set! injection.language "javascript")))
 
 ; Blade PHP attributes

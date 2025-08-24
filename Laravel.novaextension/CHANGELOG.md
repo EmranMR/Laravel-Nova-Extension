@@ -1,3 +1,8 @@
+## v2.2.2
+
+- parse and highlighting no longer breaks, when blade directives are mixed with
+  normal attributes
+
 ## v2.2.1
 
 - bumped tree-sitter-blade to kill few pesky parsing bugs
