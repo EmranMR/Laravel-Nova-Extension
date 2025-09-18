@@ -1,3 +1,7 @@
+## v2.2.3
+
+- fixed #36
+
 ## v2.2.2
 
 - parse and highlighting no longer breaks, when blade directives are mixed with

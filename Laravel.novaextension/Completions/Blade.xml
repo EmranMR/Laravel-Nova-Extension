@@ -21,6 +21,7 @@
         </query>
         <set>blade.attributes</set>
         <set>blade.livewire</set>
+        <set>blade.livewire.keywords</set>
     </provider>
     <!-- !conditional keywords -->
     <provider name="blade.conditional.keywords">
