@@ -1,3 +1,7 @@
+## v2.2.4
+
+- tree-sitter-blade bump
+
 ## v2.2.3
 
 - fixed #36
